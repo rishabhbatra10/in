@@ -1,2 +1,11 @@
 # India package
-This package is under development, contains the organised repository of cities, towns, states and union territories in India.
+#### Version 0.0.1
+
+This repository makes it easy to access states and union territories of India.
+```python
+>>> import in
+>>> in.states.JK
+OUT: <State: Jammu and Kahmir>
+
+```
+
