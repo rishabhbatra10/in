@@ -1,3 +1,11 @@
+""" This enables easy access to indian states and union territories """
+# @coding: utf-8
+# @author: Rishabh Batra
+# @email: ribhu.1996@gmail.com
+# TODO:
+# Add state lookup function for finding states
+
+# python imports
 import csv
 
 STATES = []
