@@ -4,8 +4,8 @@
 This repository makes it easy to access states and union territories of India.
 ```python
 >>> import in
->>> in.states.JK
-OUT: <State: Jammu and Kahmir>
+>>> in.states.AR
+Out: <State: Arunachal Pradesh>
 
 ```
 
