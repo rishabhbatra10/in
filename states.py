@@ -7,12 +7,18 @@
 
 # python imports
 import csv
+import re
+
+ABBR_RE = re.compile(r'^[a-zA-Z]{2}$')
 
 STATES = []
 UNION_TERRITORIES = []
 STATES_AND_TERRITORIES = []
 
-state_file = './data/states.csv'
+state_file = 'data/states.csv'
+ut_file = 'data/ut.csv'
+
+_lookup_cache = {}
 
 
 class State(object):
@@ -76,7 +82,41 @@ def load_ut():
             globals()[ut.abbr] = ut
 
 
+def lookup(val: str, field: str=None, use_cache: bool=True) -> str:
+    """ This provides functionality to find state based on the
+    lookup value provided.
+
+    :param str val: if val has 2 alphas it will look for abbrevation
+                    anything else will try to match the state names
+
+    :param str field: can take values, 'None', 'abbr', 'name' to bypass fuzzy matching.
+
+
+    This method caches non-None results, but cache can be bypassed with the
+    `use_cache=False` argument.
+    TODO: add another attribute to this for lookup of metaphones
+        """
+    # jellyfish for fuzzy matching
+
+    if field is None:
+        if ABBR_RE.match(val):
+            val = val.upper()
+            field = 'abbr'
+        else:
+            val = val.capitalize()
+            field = 'name'
+
+    # see if result is in cache
+    cache_key = "%s:%s" % (field, val)
+    if use_cache and cache_key in _lookup_cache:
+        return _lookup_cache[cache_key]
+
+    for state in STATES_AND_TERRITORIES:
+        if val == getattr(state, field):
+            _lookup_cache[cache_key] = state
+            return state
+
+
 # initialising states and territories
-if __name__ == '__main__':
-    load_states()
-    load_ut()
+load_states()
+load_ut()
