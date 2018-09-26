@@ -22,10 +22,11 @@ _lookup_cache = {}
 
 
 class State(object):
-
-    def __init__(self, abbr: str, name: str):
+    """ defines a state"""
+    def __init__(self, abbr: str, name: str, capital: str=None):
         self.name = name
         self.abbr = abbr
+        self.capital = None
 
     def __repr__(self):
         return "<State: %s>" % self.name
