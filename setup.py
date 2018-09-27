@@ -15,7 +15,7 @@ setup(
     package_data = {'in': ['data/*']},
     include_package_data=True,
     packages=find_packages(),
-    install_requires=['csv', 're'],
+    install_requires=['csv', 'regex'],
     zip_safe=False,
     classifiers=[
         "Programming Language :: Python :: 3.6",
