@@ -1,10 +1,9 @@
 # python imports
-import subprocess
+import os
 
-WORKING_DIRECTORY = subprocess.Popen(['git', 'rev-parse', '--show-toplevel'], stdout=subprocess.PIPE).communicate()[
-                            0].rstrip().decode('utf-8') + '/'
+WORKING_DIRECTORY = os.path.dirname(os.path.realpath(__file__))
 
 FILE_NAME = {
-    'states': 'data/states.csv',
-    'ut': 'data/ut.csv'
+    'states': WORKING_DIRECTORY + '/data/states.csv',
+    'ut': WORKING_DIRECTORY + 'data/ut.csv'
 }
