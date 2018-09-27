@@ -11,7 +11,7 @@ setup(
     description="India's states and cities",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/rishabhbatra10/in",
+    url="https://github.com/rishabhbatra10/india",
     package_data = {'in': ['data/*']},
     include_package_data=True,
     packages=find_packages(),
