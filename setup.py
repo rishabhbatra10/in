@@ -1,11 +1,14 @@
+from india import __version__, __appname__
+
 from setuptools import setup, find_packages
+
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="india",
-    version="0.0.1",
+    name=__appname__,
+    version=__version__,
     author="Rishabh Batra",
     author_email="ribhu.1996@gmail.com",
     description="India's states and cities",
