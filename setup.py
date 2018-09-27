@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="in",
+    name="india",
     version="0.0.1",
     author="Rishabh Batra",
     author_email="ribhu.1996@gmail.com",
@@ -15,7 +15,7 @@ setup(
     package_data = {'in': ['data/*']},
     include_package_data=True,
     packages=find_packages(),
-    install_requires=['csv', 'regex'],
+    install_requires=[],
     zip_safe=False,
     classifiers=[
         "Programming Language :: Python :: 3.6",
