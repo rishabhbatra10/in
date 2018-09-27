@@ -9,14 +9,14 @@
 import csv
 import re
 
+# module imports
+from . import utils
+
 ABBR_RE = re.compile(r'^[a-zA-Z]{2}$')
 
 STATES = []
 UNION_TERRITORIES = []
 STATES_AND_TERRITORIES = []
-
-state_file = 'data/states.csv'
-ut_file = 'data/ut.csv'
 
 _lookup_cache = {}
 
@@ -44,7 +44,7 @@ def load_states():
     # in.states.AR
     """
 
-    with open(state_file) as statesfile:
+    with open(utils.FILE_NAME['states']) as statesfile:
         states = csv.reader(statesfile, delimiter=',')
         for row in states:
             state = State(row[1], row[0])
@@ -68,7 +68,7 @@ def load_ut():
     # in.states.PY
 
     """
-    with open(ut_file) as utsfile:
+    with open(utils.FILE_NAME['ut']) as utsfile:
         uts = csv.reader(utsfile, delimiter= ',')
         for row in uts:
             ut = State(row[1], row[0])
