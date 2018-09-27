@@ -12,7 +12,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/rishabhbatra10/in",
-    package_data = {'in', ['data/*']},
+    package_data = {'in': ['data/*']},
     include_package_data=True,
     packages=find_packages(),
     install_requires=['csv', 're'],
