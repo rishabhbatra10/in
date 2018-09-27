@@ -15,7 +15,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/rishabhbatra10/india",
-    package_data = {'in': ['data/*']},
+    package_data={'india': ['data/*']},
     include_package_data=True,
     packages=find_packages(),
     install_requires=[],
