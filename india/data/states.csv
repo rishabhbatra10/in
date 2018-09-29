@@ -1,27 +1,29 @@
-Jammu and Kashmir,JK
-Himachal Pradesh,HP
-Uttarakhand,UK
-Punjab,PB
-Haryana,HR
-Uttar Pradesh,UP
-Bihar,BH
-West Bengal,WB
-Assam,AS
-Arunachal Pradesh,AR
-Nagaland,NL
-Meghalaya,ML
-Mizoram,MZ
-Sikkim,SK
-West Bengal,WB
-Orissa,OR
-Jharkhand,JH
-Madhya Pradesh,MP
-Rajasthan,RJ
-Gujarat,GJ
-Maharashtra,MH
-Andhra Pradesh,AP
-Chattisgarh,CG
-Goa,GA
-Karnataka,KA
-Tamil Nadu,TN
-Kerela,KL
+AP,Andhra Pradesh,Amaravati,49506799,160205,Telugu
+AR,Arunachal Pradesh,Itanagar,1383727,83743,English
+AS,Assam,Dispur,31205576,78550,Assamese
+BH,Bihar,Patna,104099452,94163,Hindi
+CG,Chattisgarh,Raipur,25545198,135194,Hindi
+GA,Goa,Panaji,1458545,3702,Konkani
+GJ,Gujarat,Gandhinagar,60439692,196024,Gujarati
+HR,Haryana,Chandigarh,25351462,44212,Hindi
+HP,Himachal Pradesh,Shimla,6864602,55673,Hindi
+JK,Jammu and Kashmir,Srinagar,12541302,222236,Urdu
+JH,Jharkhand,Ranchi,32988134,74677,Hindi
+KA,Karnataka,Bangalore,61095297,191791,Kannada
+KL,Kerela,Thiruvananthapuram,33406061,38863,Malayalam
+MP,Madhya Pradesh,Bhopal,72626809,308252,Hindi
+MH,Maharashtra,Mumbai,112374333,307713,Marathi
+MN,Manipur,Imphal,2855794,22347,Meitei
+ML,Meghalaya,Shillong,2966889,22720,English
+MZ,Mizoram,Aizawl,1097206,21081,Mizo
+NL,Nagaland,Kohima,1978502,16579,English
+OR,Odisha,Bhubaneswar,41974218,155820,Odia
+PB,Punjab,Chandigarh,27743338,50362,Punjabi
+RJ,Rajasthan,Jaipur,68548437,342269,Hindi
+SK,Sikkim,Gangtok,610577,7096,English
+TN,Tamil Nadu,Chennai,72147030,130058,Tamil
+TG,Telangana,Hyderabad,35193978,114840,Telugu
+TR,Tripura,Agartala,3673917,10492,Bengali
+UK,Uttarakhand,Dehradun,10086292,53483,Hindi
+UP,Uttar Pradesh,Lucknow,199812341,243286,Hindi
+WB,West Bengal,Kolkata,91276115,88752,Bengali

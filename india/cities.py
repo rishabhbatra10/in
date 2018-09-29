@@ -4,11 +4,12 @@
 # @email: ribhu.1996@gmail.com
 # TODO:
 # Write the function for loading states
+# get weather for every city
 
 # python imports
 
 # module imports
-import states
+from . import states
 
 CITIES = []
 

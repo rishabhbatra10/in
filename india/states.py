@@ -3,7 +3,8 @@
 # @author: Rishabh Batra
 # @email: ribhu.1996@gmail.com
 # TODO:
-# Add state lookup function for finding states
+# add attribute for state capitals
+# add attribute for state population
 
 # python imports
 import csv
@@ -23,10 +24,14 @@ _lookup_cache = {}
 
 class State(object):
     """ defines a state"""
-    def __init__(self, abbr: str, name: str, capital: str=None):
+    def __init__(self, abbr: str, name: str, capital: str, population: int, area: int, lang: str):
         self.name = name
         self.abbr = abbr
-        self.capital = None
+        self.capital = capital
+        self.population = population
+        self.area = area
+        self.pop_density = self.population // self.area
+        self.language = lang
 
     def __repr__(self):
         return "<State: %s>" % self.name
@@ -47,7 +52,13 @@ def load_states():
     with open(utils.FILE_NAME['states']) as statesfile:
         states = csv.reader(statesfile, delimiter=',')
         for row in states:
-            state = State(row[1], row[0])
+            state = State(abbr=row[0],
+                          name=row[1],
+                          capital=row[2],
+                          population=row[3],
+                          area=row[4],
+                          lang=row[5]
+                          )
 
             # creates list of states
             STATES.append(state)
@@ -69,9 +80,15 @@ def load_ut():
 
     """
     with open(utils.FILE_NAME['ut']) as utsfile:
-        uts = csv.reader(utsfile, delimiter= ',')
+        uts = csv.reader(utsfile, delimiter=',')
         for row in uts:
-            ut = State(row[1], row[0])
+            ut = State(abbr=row[0],
+                       name=row[1],
+                       capital=row[2],
+                       population=row[3],
+                       area=row[4],
+                       lang=row[5]
+                       )
 
             # creates a list of uts
             UNION_TERRITORIES.append(ut)
