@@ -18,9 +18,13 @@ class City(object):
     """
     Defines a city
     """
-    def __init__(self, name: str, state: str):
+    def __init__(self, abbr: str, name: str, state: str, population: int, area: int):
+        self.abbr = abbr
         self.name = name
         self.state = states.lookup(state)
+        self.population = population
+        self.area = area
+        self.density = self.population // self.area
 
     def __repr__(self):
         return "<City: %s>" % self.name
