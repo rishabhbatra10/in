@@ -1,7 +1,718 @@
-https://en.wikipedia.org/wiki/List_of_districts_in_India
-NI,Nicobar,AN,36819,1841
-NA,North and Middle Andaman,AN,105539,3227
-SA,South Andaman,AN,237586,3181
-AN,Anantapur,AP,4083315,19130
-CH,Chittoor,AP,4170468,15152
-EG,East Godavari,AP,5151549,10807
+state,abbr,district,headquarters,population,area,density,url
+AN,NI,Nicobar,Car Nicobar,36819,1841,20,
+AN,NA,North and Middle Andaman,Mayabunder,105539,3227,32,
+AN,SA,South Andaman,Port Blair,237586,3181,75,
+AP,AN,Anantapur,Anantapur,4083315,19130,213,http://www.anantapuramu.ap.gov.in/
+AP,CH,Chittoor,Chittoor,4170468,15152,275,http://www.chittoor.ap.gov.in/[permanent dead link]
+AP,EG,East Godavari,Kakinada,5151549,10807,477,http://eastgodavari.nic.in/
+AP,GU,Guntur,Guntur,4889230,11391,429,http://guntur.nic.in/
+AP,CU,Kadapa,Kadapa,2884524,15359,188,http://kadapa.ap.nic.in/
+AP,KR,Krishna,Machilipatnam,4529009,8727,519,http://krishna.nic.in/
+AP,KU,Kurnool,Kurnool,4046601,17658,229,http://www.kurnool.ap.gov.in/
+AP,PR,Prakasam,Ongole,3392764,17626,192,http://www.prakasam.ap.gov.in/
+AP,NE,Sri Potti Sriramulu Nellore,Nellore,2966082,13076,227,https://web.archive.org/web/20120527220707/http://nellore.ap.nic.in/
+AP,SR,Srikakulam,Srikakulam,2699471,5837,462,http://srikakulam.ap.nic.in/
+AP,VS,Visakhapatnam,Visakhapatnam,4288113,11161,384,http://visakhapatnam.nic.in/
+AP,VZ,Vizianagaram,Vizianagaram,2342868,6539,358,http://vizianagaram.nic.in/
+AP,WG,West Godavari,Eluru,3934782,7742,508,http://www.westgodavari.org/
+AR,AJ,Anjaw,Hawai,21089,6190,3,https://web.archive.org/web/20061114233621/http://lohit.nic.in/anjaw.htm
+AR,CH,Changlang,Changlang,147951,4662,32,http://changlang.nic.in/
+AR,EK,East Kameng,Seppa,78413,4134,19,http://eastkameng.nic.in/
+AR,ES,East Siang,Pasighat,99019,3603,27,http://eastsiang.nic.in/
+AR,KM,Kamle,Raga,22256,,,
+AR,KD,Kra Daadi,Jamin,,,,
+AR,KK,Kurung Kumey,Koloriang,89717,6040,15,http://kurungkumey.nic.in/
+AR,EL,Lohit,Tezu,145538,2402,61,http://lohit.nic.in/
+AR,LD,Longding,Longding,,,,
+AR,DV,Lower Dibang Valley,Roing,53986,3900,14,http://roing.nic.in/
+AR,LS,Lower Siang,Likabali,,,,
+AR,LB,Lower Subansiri,Ziro,82839,3508,24,http://lowersubansiri.nic.in/
+AR,NS,Namsai,Namsai,,,,
+AR,PA,Papum Pare,Yupia,176385,2875,61,http://papumpare.nic.in/
+AR,SA,Siang,Pangin,,,,
+AR,TA,Tawang,Tawang Town,49950,2085,24,http://tawang.nic.in/
+AR,TI,Tirap,Khonsa,111997,2362,47,http://tirap.nic.in/
+AR,UD,Upper Dibang Valley,Anini,7948,9129,1,http://dibang.nic.in/[permanent dead link]
+AR,US,Upper Siang,Yingkiong,35289,6188,6,http://uppersiang.nic.in/
+AR,UB,Upper Subansiri,Daporijo,83205,7032,12,http://uppersubansiri.nic.in/
+AR,WK,West Kameng,Bomdila,87013,7422,12,http://westkameng.nic.in/
+AR,WS,West Siang,Along,112272,8325,13,http://westsiang.nic.in/
+AS,BK,Baksa[7],Mushalpur,953773,2008,475,http://baksa.gov.in/
+AS,BP,Barpeta,Barpeta,1693190,3245,522,http://barpeta.gov.in/
+AS,BS,Bishwanath[8],Bishwanath Chariali,580000,1100,527,
+AS,BO,Bongaigaon,Bongaigaon,732639,1724,425,http://bongaigaon.gov.in/
+AS,CA,Cachar,Silchar,1736319,3786,459,http://cachar.gov.in/
+AS,CD,Charaideo[8],Sonari,,,,
+AS,CH,Chirang[7],Kajalgaon,481818,1975,244,http://chirang.gov.in/
+AS,DR,Darrang,Mangaldoi,908090,1849,491,http://darrang.gov.in/
+AS,DM,Dhemaji,Dhemaji,688077,3237,213,http://dhemaji.gov.in/
+AS,DU,Dhubri,Dhubri,1948632,2838,687,http://dhubri.gov.in/
+AS,DI,Dibrugarh,Dibrugarh,1327748,3381,393,http://dibrugarh.gov.in/
+AS,NC,Dima Hasao,Haflong,213529,4888,44,http://nchills.gov.in/
+AS,GP,Goalpara,Goalpara,1008959,1824,553,http://goalpara.gov.in/
+AS,GG,Golaghat,Golaghat,1058674,3502,302,http://golaghat.gov.in/
+AS,HA,Hailakandi,Hailakandi,659260,1327,497,http://hailakandi.nic.in/
+AS,HJ,Hojai[8],Hojai,347627,,,
+AS,JO,Jorhat,Jorhat,1091295,2851,383,http://jorhat.gov.in/
+AS,KU,Kamrup,Amingaon,1517202,3480,436,http://kamrup.nic.in/
+AS,KM,Kamrup Metropolitan,Guwahati,1260419,627,2010,http://kamrupmetro.nic.in/
+AS,KG,Karbi Anglong,Diphu,965280,10434,93,http://karbianglong.gov.in/
+AS,KR,Karimganj,Karimganj,1217002,1809,673,http://karimganj.gov.in/
+AS,KJ,Kokrajhar[7],Kokrajhar,886999,3129,283,http://kokrajhar.gov.in/
+AS,LA,Lakhimpur,North Lakhimpur,1040644,2277,457,http://lakhimpur.gov.in/
+AS,MJ,Majuli[9],Garamur,167304,1250,134,
+AS,MA,Morigaon,Marigaon,957853,1704,562,http://morigaon.nic.in/
+AS,NN,Nagaon,Nagaon,2826006,3831,738,http://nagaon.gov.in/
+AS,NB,Nalbari,Nalbari,769919,1009,763,http://nalbari.nic.in/
+AS,ST,Sivasagar,Sibsagar,1150253,2668,431,http://sivasagar.nic.in
+AS,SM,South Salmara-Mankachar[8],Hatsingimari,,,,
+AS,SO,Sonitpur,Tezpur,1925975,5324,362,http://sonitpur.gov.in/
+AS,TI,Tinsukia,Tinsukia,1316948,3790,347,http://tinsukia.gov.in/
+AS,UD,Udalguri[7],Udalguri,832769,1676,497,http://udalguri.gov.in/
+AS,WK,West Karbi Anglong[8],Hamren,,,,
+BR,AR,Araria,Araria,2806200,2829,992,http://araria.bih.nic.in
+BR,AW,Arwal,Arwal,700843,638,1098,http://arwal.bih.nic.in/
+BR,AU,Aurangabad,Aurangabad,2511243,3303,760,http://aurangabad.bih.nic.in
+BR,BA,Banka,Banka,2029339,3018,672,http://banka.bih.nic.in
+BR,BE,Begusarai,Begusarai,2954367,1917,1540,http://begusarai.bih.nic.in
+BR,BG,Bhagalpur,Bhagalpur,3032226,2569,1180,https://web.archive.org/web/20111006202238/http://bhagalpur.bih.nic.in/
+BR,BJ,Bhojpur,Arrah,2720155,2473,1136,http://bhojpur.bih.nic.in
+BR,BU,Buxar,Buxar,1707643,1624,1003,http://buxar.bih.nic.in
+BR,DA,Darbhanga,Darbhanga,3921971,2278,1721,http://darbhanga.bih.nic.in
+BR,EC,East Champaran,Motihari,5082868,3969,1281,http://eastchamparan.bih.nic.in
+BR,GA,Gaya,Gaya,4379383,4978,880,http://gaya.bih.nic.in
+BR,GO,Gopalganj,Gopalganj,2558037,2033,1258,http://gopalganj.bih.nic.in
+BR,JA,Jamui,Jamui,1756078,3099,567,https://web.archive.org/web/20110818201023/http://jamui.bih.nic.in/
+BR,JE,Jehanabad,Jehanabad,1124176,1569,1206,http://Jehanabad.bih.nic.in
+BR,KM,Kaimur,Bhabua,1626900,3363,488,http://kaimur.bih.nic.in
+BR,KT,Katihar,Katihar,3068149,3056,1004,http://katihar.bih.nic.in
+BR,KH,Khagaria,Khagaria,1657599,1486,1115,http://khagaria.bih.nic.in
+BR,KI,Kishanganj,Kishanganj,1690948,1884,898,http://kishanganj.bih.nic.in
+BR,LA,Lakhisarai,Lakhisarai,1000717,1229,815,http://lakhisarai.bih.nic.in
+BR,MP,Madhepura,Madhepura,1994618,1787,1116,http://madhepura.bih.nic.in
+BR,MB,Madhubani,Madhubani,4476044,3501,1279,http://madhubani.bih.nic.in
+BR,MG,Munger,Munger,1359054,1419,958,https://web.archive.org/web/20151219044930/http://www.munger.bih.nic.in/
+BR,MZ,Muzaffarpur,Muzaffarpur,4778610,3173,1506,http://muzaffarpur.bih.nic.in
+BR,NL,Nalanda,Bihar Sharif,2872523,2354,1220,http://nalanda.bih.nic.in
+BR,NW,Nawada,Nawada,2216653,2492,889,http://nawada.bih.nic.in
+BR,PA,Patna,Patna,5772804,3202,1803,https://web.archive.org/web/20110228012237/http://patna.bih.nic.in/
+BR,PU,Purnia,Purnia,3273127,3228,1014,http://purnea.bih.nic.in
+BR,RO,Rohtas,Sasaram,2962593,3850,763,http://rohtas.bih.nic.in
+BR,SH,Saharsa,Saharsa,1897102,1702,1125,http://saharsa.bih.nic.in
+BR,SM,Samastipur,Samastipur,4254782,2905,1465,http://samastipur.bih.nic.in
+BR,SR,Saran,Chhapra,3943098,2641,1493,http://saran.bih.nic.in
+BR,SP,Sheikhpura,Sheikhpura,634927,689,922,http://sheikhpura.bih.nic.in
+BR,SO,Sheohar,Sheohar,656916,443,1882,http://sheohar.bih.nic.in
+BR,ST,Sitamarhi,Sitamarhi,3419622,2199,1491,https://web.archive.org/web/20180720032153/http://sitamarhi.bih.nic.in/
+BR,SW,Siwan,Siwan,3318176,2219,1495,http://siwan.bih.nic.in
+BR,SU,Supaul,Supaul,2228397,2410,919,http://supaul.bih.nic.in
+BR,VA,Vaishali,Hajipur,3495021,2036,1717,http://vaishali.bih.nic.in
+BR,WC,West Champaran,Bettiah,3935042,5229,753,http://westchamparan.bih.nic.in
+CH,CH,Chandigarh,Chandigarh,1054686,114,9252,
+CG,BL,Balod,Balod,826165,3527,234,http://balod.gov.in/
+CG,BB,Baloda Bazar,Baloda Bazar,,,,
+CG,BP,Balrampur,Balrampur,598855,3806,157,http://balrampur.info/
+CG,BA,Bastar,Jagdalpur,1302253,4030,87,http://bastar.nic.in/
+CG,BM,Bemetara,Bemetara,197035,2855,69,http://bemetara.gov.in/
+CG,BJ,Bijapur,Bijapur,229832,6562,35,http://www.bijapur.nic.in/
+CG,BI,Bilaspur,Bilaspur,1961922,5818,337,http://bilaspur.nic.in/
+CG,DA,Dantewada,Dantewada,533638,3411,59,http://dantewada.nic.in/
+CG,DH,Dhamtari,Dhamtari,799199,2029,394,http://dhamtari.nic.in/
+CG,DU,Durg,Durg,3343079,8542,391,http://durg.nic.in/
+CG,GA,Gariaband,Gariaband,,,,
+CG,JC,Janjgir-Champa,Naila Janjgir,1620632,3848,421,http://janjgirchampa.nic.in/[permanent dead link]
+CG,JA,Jashpur,Jashpur Nagar,852043,5825,146,http://jashpur.nic.in/
+CG,KW,Kabirdham  (formerly Kawardha),Kawardha,584667,4237,195,http://kawardha.nic.in/
+CG,KK,Kanker,Kanker,748593,6513,115,http://kanker.gov.in/
+CG,KG,Kondagaon,Kondagaon,,,,
+CG,KB,Korba,Korba,1206563,6615,183,https://web.archive.org/web/20051211002149/http://korba.nic.in/
+CG,KJ,Koriya,Baikunthpur,659039,6578,100,https://web.archive.org/web/20060102213143/http://koriya.nic.in/
+CG,MA,Mahasamund,Mahasamund,1032275,4779,216,http://mahasamund.nic.in/
+CG,MG,Mungeli,Mungeli,,,,
+CG,NR,Narayanpur,Narayanpur,140206,6640,20,http://narayanpur.gov.in/
+CG,RG,Raigarh,Raigarh,1493627,7068,211,https://web.archive.org/web/20050307064830/http://raigarh.nic.in/
+CG,RP,Raipur,Raipur,4062160,13083,310,http://raipur.nic.in/
+CG,RN,Rajnandgaon,Rajnandgaon,1537520,8062,191,http://rajnandgaon.nic.in/
+CG,SK,Sukma,Sukma,249000,5636,49,http://dantewada.gov.in/Sukma.html/[permanent dead link]
+CG,SJ,Surajpur,Surajpur,660280,6787,150,http://surajpur.gov.in/
+CG,SJ,Surguja,Ambikapur,420661,3265,150,http://surguja.nic.in/
+DN,DN,Dadra and Nagar Haveli,Silvassa,342853,704,698,
+DD,DA,Daman,Daman,190855,72,2651,
+DD,DI,Diu,Diu,52056,40,1301,
+DL,CD,Central Delhi,Daryaganj,578671,25,23149,http://dccentral.delhigovt.nic.in/
+DL,ED,East Delhi,Preet Vihar,1707725,440,26683,http://dceast.delhigovt.nic.in/
+DL,ND,New Delhi,Connaught Place,133713,22,3820,http://dcnewdelhi.delhigovt.nic.in/
+DL,NO,North Delhi,Sadar Bazaar,883418,59,14973,http://dcnorth.delhigovt.nic.in/
+DL,NE,North East Delhi,Shahdara,2240749,52,37346,http://dcnortheast.delhigovt.nic.in/
+DL,NW,North West Delhi,Kanjhawala,3651261,130,8298,http://dcnorthwest.delhigovt.nic.in/
+DL,SD,South Delhi,Saket,2733752,250,10935,http://dcsouth.delhigovt.nic.in/
+DL,SW,South West Delhi,Vasant Vihar,2292363,395,5445,http://dcsouthwest.delhigovt.nic.in/
+DL,WD,West Delhi,Rajouri Garden,2531583,112,19625,https://web.archive.org/web/20070103184838/http://dcwestrev.delhigovt.nic.in/
+GA,NG,North Goa,Panaji,817761,1736,471,http://northgoa.nic.in/
+GA,SG,South Goa,Margao,639962,1966,326,http://southgoa.nic.in/
+GJ,AH,Ahmedabad,Ahmedabad,7208200,8707,890,http://ahmedabad.gujarat.gov.in/
+GJ,AM,Amreli,Amreli,1513614,6760,205,http://amreli.gujarat.gov.in/
+GJ,AN,Anand,Anand,2090276,2942,711,http://anand.gujarat.gov.in/
+GJ,AR,Aravalli,Modasa,1051746,3217,327,
+GJ,BK,Banaskantha,Palanpur,3116045,12703,290,http://banaskantha.gujarat.gov.in/
+GJ,BR,Bharuch,Bharuch,1550822,6524,238,http://bharuch.gujarat.gov.in/
+GJ,BV,Bhavnagar,Bhavnagar,2877961,11155,288,http://bhavnagar.gujarat.gov.in/
+GJ,BT,Botad,Botad,656005,2564,256,
+GJ,CU,Chhota Udaipur,Chhota Udaipur,1071831,3237,331,
+GJ,DA,Dahod,Dahod,2126558,3642,582,http://dahod.gujarat.gov.in/
+GJ,DG,Dang,Ahwa,226769,1764,129,http://dangs.gujarat.gov.in/
+GJ,DB,Devbhoomi Dwarka,Khambhalia,752484,5684,132,
+GJ,GA,Gandhinagar,Gandhinagar,1387478,649,660,http://gandhinagar.gujarat.gov.in/
+GJ,GS,Gir Somnath,Veraval,1217477,3754,324,
+GJ,JA,Jamnagar,Jamnagar,2159130,14125,153,http://jamnagar.gujarat.gov.in/
+GJ,JU,Junagadh,Junagadh,2742291,8839,310,http://junagadh.gujarat.gov.in/
+GJ,KH,Kheda,Nadiad,2298934,4215,541,http://kheda.gujarat.gov.in/
+GJ,KA,Kutch,Bhuj,2090313,45652,46,http://kutch.gujarat.gov.in/
+GJ,MH,Mahisagar,Lunavada,994624,2500,398,http://mahisagar.gujarat.gov.in/
+GJ,MA,Mehsana,Mehsana,2027727,4386,462,http://mehsana.gujarat.gov.in/
+GJ,MB,Morbi,Morbi,960329,4871,197,http://morbi.gujarat.gov.in/
+GJ,NR,Narmada,Rajpipla,590379,2749,214,http://narmada.gujarat.gov.in/
+GJ,NV,Navsari,Navsari,1330711,2211,602,http://navsari.gujarat.gov.in/
+GJ,PM,Panchmahal,Godhra,2388267,5219,458,https://web.archive.org/web/20090204080000/http://panchmahals.gujarat.gov.in/
+GJ,PA,Patan,Patan,1342746,5738,234,http://patan.gujarat.gov.in/
+GJ,PO,Porbandar,Porbandar,586062,2294,255,http://porbandar.gujarat.gov.in/
+GJ,RA,Rajkot,Rajkot,3157676,11203,282,http://rajkot.gujarat.gov.in/
+GJ,SK,Sabarkantha,Himatnagar,2427346,7390,328,http://sabarkantha.gujarat.gov.in/
+GJ,ST,Surat,Surat,4996391,4327,653,http://surat.gujarat.gov.in/
+GJ,SN,Surendranagar,Surendranagar,1755873,10489,167,http://surendranagar.gujarat.gov.in/
+GJ,TA,Tapi,Vyara,806489,3435,249,http://tapidp.gujarat.gov.in/Tapi/english/index.htm
+GJ,VD,Vadodara,Vadodara,3639775,7794,467,http://vadodara.gujarat.gov.in/
+GJ,VL,Valsad,Valsad,1703068,3034,561,http://valsad.gujarat.gov.in/
+HR,AM,Ambala,Ambala,1136784,1569,722,http://ambala.nic.in/
+HR,BH,Bhiwani,Bhiwani,1629109,5140,341,http://bhiwani.nic.in/
+HR,CD,Charkhi Dadri,Charkhi Dadri,,,,
+HR,FR,Faridabad,Faridabad,1798954,783,2298,http://faridabad.nic.in/
+HR,FT,Fatehabad,Fatehabad,941522,2538,371,http://fatehabad.nic.in/
+HR,GU,Gurgaon,Gurgaon,1514085,2760,1241,https://web.archive.org/web/20080602231540/http://gurgaon.nic.in/
+HR,HI,Hissar,Hissar,1742815,3788,438,http://hisar.nic.in/
+HR,JH,Jhajjar,Jhajjar,956907,1868,522,http://jhajjar.nic.in/
+HR,JI,Jind,Jind,1332042,2702,493,http://jind.nic.in/
+HR,KT,Kaithal,Kaithal,1072861,2799,467,https://web.archive.org/web/20051211025029/http://kaithal.nic.in/
+HR,KR,Karnal,Karnal,1506323,2471,598,http://karnal.nic.in/
+HR,KU,Kurukshetra,Kurukshetra,964231,1530,630,http://kurukshetra.nic.in/
+HR,MA,Mahendragarh,Narnaul,921680,1900,485,http://mahendragarh.nic.in/
+HR,MW,Nuh,Nuh,1089406,1765,729,http://mewat.gov.in/
+HR,PW,Palwal,Palwal,1040493,1367,761,http://palwal.gov.in/
+HR,PK,Panchkula,Panchkula,558890,816,622,http://panchkula.nic.in/
+HR,PP,Panipat,Panipat,1202811,1250,949,http://panipat.gov.in/
+HR,RE,Rewari,Rewari,896129,1559,562,https://web.archive.org/web/20070703082821/http://rewari.nic.in/
+HR,RO,Rohtak,Rohtak,1058683,1668,607,https://web.archive.org/web/20090209215206/http://rohtak.nic.in/
+HR,SI,Sirsa,Sirsa,1295114,4276,303,http://sirsa.nic.in/
+HR,SNP,Sonipat,Sonipat,1480080,2260,697,http://sonepat.gov.in/[permanent dead link]
+HR,YN,Yamuna Nagar,Yamuna Nagar,1214162,1756,687,http://yamunanagar.nic.in/
+HP,BI,Bilaspur,Bilaspur,382056,1167,327,http://hpbilaspur.gov.in/
+HP,CH,Chamba,Chamba,518844,6528,80,http://hpchamba.nic.in/
+HP,HA,Hamirpur,Hamirpur,454293,1118,406,http://hphamirpur.gov.in/
+HP,KA,Kangra,Dharamshala,1507223,5739,263,http://hpkangra.nic.in/
+HP,KI,Kinnaur,Reckong Peo,84298,6401,13,http://hpkinnaur.nic.in/
+HP,KU,Kullu,Kullu,437474,5503,79,http://hpkullu.gov.in/
+HP,LS,Lahaul and Spiti,Keylong,31528,13835,2,http://hplahaulspiti.gov.in
+HP,MA,Mandi,Mandi,999518,3950,253,http://hpmandi.nic.in/
+HP,SH,Shimla,Shimla,813384,5131,159,http://hpshimla.nic.in/
+HP,SI,Sirmaur,Nahan,530164,2825,188,http://hpsirmaur.gov.in/
+HP,SO,Solan,Solan,576670,1936,298,http://hpsolan.gov.in/
+HP,UNA,Una,Una,521057,1540,328,http://hpuna.nic.in/
+JK,AN,Anantnag,Anantnag,1070144,2853,375,http://anantnag.gov.in/
+JK,BPR,Bandipora,Bandipore,385099,3010,128,http://bandipore.gov.in/
+JK,BR,Baramulla,Baramulla,1015503,3329,305,http://baramulla.nic.in/
+JK,BD,Badgam,Badgam,735753,1406,537,http://budgam.nic.in/
+JK,DO,Doda,Doda,409576,11691,79,http://doda.gov.in/
+JK,GB,Ganderbal,Ganderbal,297003,258,1151,http://ganderbal.nic.in/
+JK,JA,Jammu,Jammu,1526406,3097,596,http://jammu.gov.in/
+JK,KR,Kargil,Kargil,143388,14036,10,http://kargil.gov.in/
+JK,KT,Kathua,Kathua,615711,2651,232,http://kathua.gov.in/
+JK,KW,Kishtwar,Kishtwar,230696,7737,30,http://kishtwar.nic.in/
+JK,KG,Kulgam,Kulgam,422786,457,925,http://kulgam.gov.in/
+JK,KU,Kupwara,Kupwara,875564,2379,368,http://kupwara.gov.in/
+JK,LE,Leh,Leh,147104,45110,3,http://leh.nic.in/
+JK,PO,Poonch,Poonch,476820,1674,285,http://poonch.gov.in/
+JK,PU,Pulwama,Pulwama,570060,1398,598,http://pulwama.gov.in/
+JK,RA,Rajouri,Rajouri,619266,2630,235,http://rajouri.nic.in/
+JK,RB,Ramban,Ramban,283313,1330,213,http://ramban.gov.in/
+JK,RS,Reasi,Reasi,314714,1710,184,http://reasi.gov.in/
+JK,SB,Samba,Samba,318611,913,318,http://samba.gov.in/
+JK,SH,Shopian,Shupiyan,265960,312,852,http://shopian.nic.in/
+JK,SR,Srinagar,Srinagar,1269751,2228,703,http://srinagar.nic.in/
+JK,UD,Udhampur,Udhampur,555357,4550,211,http://udhampur.gov.in/
+JH,BO,Bokaro,Bokaro,2061918,2861,716,http://bokaro.nic.in/
+JH,CH,Chatra,Chatra,1042304,3700,275,http://chatra.nic.in/
+JH,DE,Deoghar,Deoghar,1491879,2479,602,
+JH,DH,Dhanbad,Dhanbad,2682662,2075,1284,http://dhanbad.nic.in/
+JH,DU,Dumka,Dumka,1321096,4404,300,http://dumka.nic.in/
+JH,ES,East Singhbhum,Jamshedpur,2291032,3533,648,http://jamshedpur.nic.in/
+JH,GA,Garhwa,Garhwa,1322387,4064,327,http://garhwa.nic.in/
+JH,GI,Giridih,Giridih,2445203,4887,497,http://giridih.nic.in/
+JH,GO,Godda,Godda,1311382,2110,622,http://godda.nic.in/
+JH,GU,Gumla,Gumla,1025656,5327,193,http://gumla.nic.in/
+JH,HA,Hazaribag,Hazaribag,1734005,4302,403,http://hazaribag.nic.in/
+JH,JA,Jamtara,Jamtara,790207,1802,439,http://jamtara.nic.in/
+JH,KH,Khunti,Khunti,530299,2467,215,http://khunti.nic.in/
+JH,KO,Koderma,Koderma,717169,1312,427,http://koderma.nic.in/
+JH,LA,Latehar,Latehar,725673,3630,200,http://latehar.nic.in/
+JH,LO,Lohardaga,Lohardaga,461738,1494,310,http://lohardaga.nic.in/
+JH,PK,Pakur,Pakur,899200,1805,498,http://pakur.nic.in/
+JH,PL,Palamu,Daltonganj,1936319,5082,381,http://palamu.nic.in/
+JH,RM,Ramgarh,Ramgarh,949159,1212,684,http://ramgarh.nic.in/
+JH,RA,Ranchi,Ranchi,2912022,7974,557,http://ranchi.nic.in/
+JH,SA,Sahibganj,Sahebganj,1150038,1599,719,http://sahibganj.nic.in/
+JH,SK,Seraikela Kharsawan,Seraikela,1063458,2725,390,http://seraikela.nic.in/
+JH,SI,Simdega,Simdega,599813,3750,160,http://simdega.nic.in/
+JH,WS,West Singhbhum,Chaibasa,1501619,7186,209,http://chaibasa.nic.in/
+KA,BK,Bagalkot,Bagalkot,1890826,6583,288,http://www.bagalkot.nic.in/
+KA,BL,Ballari,Ballari,2532383,8439,300,http://www.bellary.nic.in/
+KA,BG,Belagavi,Belagavi,4778439,13415,356,http://www.belgaum.nic.in/
+KA,BR,Bengaluru Rural,Bengaluru,987257,2239,441,http://www.bangalorerural.nic.in/
+KA,BN,Bengaluru Urban,Bengaluru,9588910,2190,4378,http://bangaloreurban.nic.in/
+KA,BD,Bidar,Bidar,1700018,5448,312,http://www.bidar.nic.in/
+KA,CJ,Chamarajnagar,Chamarajanagar,1020962,5102,200,http://chamrajnagar.nic.in/
+KA,CK,Chikkaballapur,Chikkaballapur,1254377,4208,298,http://www.chikballapur.nic.in/
+KA,CK,Chikkamagaluru,Chikmagalur,1137753,7201,158,http://chickmagalur.nic.in/
+KA,CT,Chitradurga,Chitradurga,1660378,8437,197,http://www.chitradurga.nic.in/
+KA,DK,Dakshina Kannada,Mangaluru,2083625,4559,457,http://www.dk.nic.in/
+KA,DA,Davanagere,Davangere,1946905,5926,329,http://www.davanagere.nic.in/
+KA,DH,Dharwad,Dharwad,1846993,4265,434,http://www.dharwad.nic.in/
+KA,GA,Gadag,Gadag-Betageri,1065235,4651,229,http://gadag.nic.in/
+KA,HS,Hassan,Hassan,1776221,6814,261,http://www.hassan.nic.in/
+KA,HV,Haveri,Haveri,1598506,4825,331,http://haveri.nic.in/
+KA,GU,Kalaburagi,Kalaburagi,2564892,10990,233,http://www.gulbarga.nic.in/
+KA,KD,Kodagu,Madikeri,554762,4102,135,http://www.kodagu.nic.in/
+KA,KL,Kolar,Kolar,1540231,4012,384,http://kolar.nic.in/
+KA,KP,Koppal,Koppal,1391292,5565,250,http://www.koppal.nic.in/
+KA,MA,Mandya,Mandya,1808680,4961,365,http://www.mandya.nic.in/
+KA,MY,Mysuru,Mysuru,2994744,6854,437,http://www.mysore.nic.in/
+KA,RA,Raichur,Raichur,1924773,6839,228,http://www.raichur.nic.in/
+KA,RM,Ramanagara,Ramanagara,1082739,3573,303,http://www.ramanagaracity.gov.in/[permanent dead link]
+KA,SH,Shivamogga,Shivamogga,1755512,8495,207,http://www.shimoga.nic.in/
+KA,TU,Tumakuru,Tumakuru,2681449,10598,253,http://www.tumkur.nic.in/
+KA,UD,Udupi,Udupi,1177908,3879,304,http://udupi.nic.in/
+KA,UK,Uttara Kannada,Karwar,1353299,10291,132,http://uttarakannada.nic.in/
+KA,BJ,Vijayapura,Vijayapura,2175102,10517,207,http://www.bijapur.nic.in/
+KA,YG,Yadgir,Yadgir,1172985,5225,224,http://www.yadgir.nic.in/
+KL,AL,Alappuzha,Alappuzha,2121943,1414,Map,1501,http://www.alappuzha.nic.in/,
+KL,ER,Ernakulam,Kakkanad,3279860,2951,Map,1069,http://ernakulam.nic.in/,
+KL,ID,Idukki,Painavu,1107453,4479,Map,254,http://idukki.nic.in/,
+KL,KN,Kannur,Kannur,2525637,2966,Map,852,http://kannur.nic.in/,
+KL,KS,Kasaragod,Kasaragod,1302600,1992,Map,654,http://kasargod.nic.in/,
+KL,KL,Kollam,Kollam,2629703,2498,Map,1056,http://kollam.nic.in/,
+KL,KT,Kottayam,Kottayam,1979384,2203,Map,896,http://kottayam.nic.in/,
+KL,KZ,Kozhikode,Kozhikode,3089543,2345,Map,1318,http://kozhikode.nic.in/,
+KL,MA,Malappuram,Malappuram,4110956,3550,Map,1058,http://malappuram.nic.in/,
+KL,PL,Palakkad,Palakkad,2810892,4480,Map,627,http://palakkad.nic.in/,
+KL,PT,Pathanamthitta,Pathanamthitta,1195537,2462,Map,453,http://pathanamthitta.nic.in/,
+KL,TS,Thrissur,Thrissur,3110327,3032,Map,1026,http://thrissur.nic.in/,
+KL,TV,Thiruvananthapuram,Thiruvananthapuram,3307284,2192,Map,1509,http://www.trivandrum.gov.in//,
+KL,WA,Wayanad,Kalpetta,816558,2131,Map,383,http://wayanad.nic.in/,
+LD,LD,Lakshadweep,Kavaratti,64429,32,2013,http://www.lakshadweep.gov.in/
+MP,AG,Agar Malwa,Agar,,,,
+MP,AL,Alirajpur,Alirajpur,728677,3182,229,http://alirajpur.nic.in/
+MP,AP,Anuppur,Anuppur,749521,3747,200,http://anuppur.nic.in/
+MP,AS,Ashok Nagar,Ashok Nagar,844979,4674,181,http://ashoknagar.nic.in/
+MP,BL,Balaghat,Balaghat,1701156,9229,184,http://balaghat.nic.in/
+MP,BR,Barwani,Barwani,1385659,5432,256,http://barwani.nic.in/
+MP,BE,Betul,Betul,1575247,10043,157,http://betul.nic.in/
+MP,BD,Bhind,Bhind,1703562,4459,382,http://bhind.nic.in/
+MP,BP,Bhopal,Bhopal,2368145,2772,854,http://bhopal.nic.in/
+MP,BU,Burhanpur,Burhanpur,756993,3427,221,http://burhanpur.nic.in/
+MP,CT,Chhatarpur,Chhatarpur,1762857,8687,203,http://chhatarpur.nic.in/
+MP,CN,Chhindwara,Chhindwara,2090306,11815,177,http://chhindwara.nic.in/
+MP,DM,Damoh,Damoh,1263703,7306,173,http://damoh.nic.in/
+MP,DT,Datia,Datia,786375,2694,292,http://datia.nic.in/
+MP,DE,Dewas,Dewas,1563107,7020,223,http://dewas.nic.in/
+MP,DH,Dhar,Dhar,2184672,8153,268,http://dhar.nic.in/
+MP,DI,Dindori,Dindori,704218,7427,94,http://dindori.nic.in/
+MP,GU,Guna,Guna,1240938,6485,194,http://guna.nic.in/
+MP,GW,Gwalior,Gwalior,2030543,5465,445,http://gwalior.nic.in/
+MP,HA,Harda,Harda,570302,3339,171,http://harda.nic.in/
+MP,HO,Hoshangabad,Hoshangabad,1240975,6698,185,http://hoshangabad.nic.in/
+MP,IN,Indore,Indore,3272335,3898,839,http://www.indore.nic.in/
+MP,JA,Jabalpur,Jabalpur,2460714,5210,472,http://jabalpur.nic.in/
+MP,JH,Jhabua,Jhabua,1024091,6782,285,http://jhabua.nic.in/
+MP,KA,Katni,Katni,1291684,4947,261,http://katni.nic.in/
+MP,EN,Khandwa (East Nimar),Khandwa,1309443,7349,178,http://khandwa.nic.in/
+MP,WN,Khargone (West Nimar),Khargone,1872413,8010,233,http://khargone.nic.in/
+MP,ML,Mandla,Mandla,1053522,5805,182,http://mandla.nic.in/
+MP,MS,Mandsaur,Mandsaur,1339832,5530,242,http://mandsaur.nic.in/
+MP,MO,Morena,Morena,1965137,4991,394,http://morena.nic.in/
+MP,NA,Narsinghpur,Narsinghpur,1092141,5133,213,http://narsinghpur.nic.in/
+MP,NE,Neemuch,Neemuch,825958,4267,194,http://neemuch.nic.in/
+MP,PA,Panna,Panna,1016028,7135,142,http://panna.nic.in/
+MP,RS,Raisen,Raisen,1331699,8466,157,http://raisen.nic.in/
+MP,RG,Rajgarh,Rajgarh,1546541,6143,251,http://rajgarh.nic.in/
+MP,RL,Ratlam,Ratlam,1454483,4861,299,http://ratlam.nic.in/
+MP,RE,Rewa,Rewa,2363744,6314,374,http://rewa.nic.in/
+MP,SG,Sagar,Sagar,2378295,10252,272,http://sagar.nic.in/
+MP,ST,Satna,Satna,2228619,7502,297,http://satna.nic.in/
+MP,SR,Sehore,Sehore,1311008,6578,199,http://sehore.nic.in/
+MP,SO,Seoni,Seoni,1378876,8758,157,http://seoni.nic.in/
+MP,SH,Shahdol,Shahdol,1064989,6205,172,http://shahdol.nic.in/
+MP,SJ,Shajapur,Shajapur,1512353,6196,244,http://shajapur.nic.in/
+MP,SP,Sheopur,Sheopur,687952,6585,104,http://sheopur.nic.in/
+MP,SV,Shivpuri,Shivpuri,1725818,10290,168,http://shivpuri.nic.in/
+MP,SI,Sidhi,Sidhi,1126515,10520,232,http://sidhi.nic.in/
+MP,SN,Singrauli,Waidhan,1178132,5672,208,http://singrauli.nic.in/
+MP,TI,Tikamgarh,Tikamgarh,1444920,5055,286,http://tikamgarh.nic.in/
+MP,UJ,Ujjain,Ujjain,1986864,6091,356,http://ujjain.nic.in/
+MP,UM,Umaria,Umaria,643579,4062,158,http://umaria.nic.in/
+MP,VI,Vidisha,Vidisha,1458212,7362,198,http://vidisha.nic.in/
+MH,AH,Ahmednagar,Ahmednagar,4543083,17048,266,http://ahmednagar.gov.in/
+MH,AK,Akola,Akola,1818617,5429,321,http://akola.nic.in/
+MH,AM,Amravati,Amravati,2887826,12235,237,http://amravati.nic.in/
+MH,AU,Aurangabad,Aurangabad,3695928,10107,365,http://aurangabad.nic.in/
+MH,BI,Beed,Beed,2585962,10693,242,http://beed.nic.in/
+MH,BH,Bhandara,Bhandara,1198810,3890,293,http://bhandara.gov.in/
+MH,BU,Buldhana,Buldhana,2588039,9661,268,http://buldhana.nic.in/
+MH,CH,Chandrapur,Chandrapur,2194262,11443,192,http://chanda.nic.in/
+MH,DH,Dhule,Dhule,2048781,8095,285,http://dhule.gov.in/
+MH,GA,Gadchiroli,Gadchiroli,1071795,14412,74,http://gadchiroli.nic.in/
+MH,GO,Gondia,Gondia,1322331,5431,253,http://gondia.gov.in/
+MH,HI,Hingoli,Hingoli,1178973,4526,244,http://hingoli.gov.in/
+MH,JG,Jalgaon,Jalgaon,4224442,11765,359,http://jalgaon.nic.in/
+MH,JN,Jalna,Jalna,1958483,7718,255,http://jalna.nic.in/
+MH,KO,Kolhapur,Kolhapur,3874015,7685,504,http://kolhapur.nic.in/
+MH,LA,Latur,Latur,2455543,7157,343,http://latur.nic.in/
+MH,MC,Mumbai City, —,3145966,69,20038,http://mumbaicity.gov.in/
+MH,MU,Mumbai suburban,Bandra (East),9332481,369,20925,http://mumbaisuburban.gov.in/
+MH,ND,Nanded,Nanded,3356566,10528,319,http://nanded.nic.in/
+MH,NB,Nandurbar,Nandurbar,1646177,5055,276,http://nandurbar.nic.in/
+MH,NG,Nagpur,Nagpur,4653171,9892,470,http://nagpur.nic.in/
+MH,NS,Nashik,Nashik,6109052,15539,393,http://nashik.nic.in/
+MH,OS,Osmanabad,Osmanabad,1660311,7569,219,http://osmanabad.nic.in/
+MH,PL,Palghar,Palghar,,,,
+MH,PA,Parbhani,Parbhani,1835982,6511,295,http://parbhani.gov.in/
+MH,PU,Pune,Pune,9426959,15643,603,http://pune.gov.in/
+MH,RG,Raigad,Alibag,2635394,7152,368,http://raigad.nic.in/
+MH,RT,Ratnagiri,Ratnagiri,1612672,8208,196,http://ratnagiri.gov.in/
+MH,SN,Sangli,Sangli,2820575,8572,329,http://sangli.gov.in/
+MH,ST,Satara,Satara,3003922,10475,287,http://satara.gov.in/
+MH,SI,Sindhudurg,Oros,848868,5207,163,http://sindhudurg.gov.in/
+MH,SO,Solapur,Solapur,4315527,14895,290,http://solapur.gov.in/
+MH,TH,Thane,Thane,11060148,9558,1157,http://thane.gov.in/
+MH,WR,Wardha,Wardha,1296157,6309,205,http://wardha.gov.in/
+MH,WS,Washim,Washim,1196714,5155,244,http://washim.gov.in/
+MH,YA,Yavatmal,Yavatmal,2775457,13582,204,http://yavatmal.nic.in/
+MN,BI,Bishnupur,Bishnupur,240363,496,415,http://bishnupur.nic.in/
+MN,TH,Thoubal,Thoubal,420517,514,713,http://thoubal.nic.in/
+MN,EI,Imphal East,Porompat,452661,710,555,http://imphaleast.nic.in/
+MN,WI,Imphal West,Lamphelpat,514683,519,847,http://imphalwest.nic.in/
+MN,SE,Senapati,Senapati,354772,3269,116,http://Senapati.nic.in/
+MN,UK,Ukhrul,Ukhrul,183115,4547,31,http://ukhrul.nic.in/
+MN,CD,Chandel,Chandel,144028,3317,37,http://chandel.nic.in/
+MN,CC,Churachandpur,Churachandpur,271274,4574,50,http://churachandpur.nic.in/[permanent dead link]
+MN,TA,Tamenglong,Tamenglong,140143,4391,25,http://tamenglong.nic.in/
+MN,JB,Jiribam,Jiribam,,,,
+MN,KPI,Kangpokpi (Sadar Hills),Kangpokpi,,,,
+MN,KAK,Kakching,Kakching,,,,http://www.kakching.nic.in/
+MN,TGP,Tengnoupal,Tengnoupal,,,,
+MN,KJ,Kamjong,Kamjong,,,,
+MN,NN,Noney,Noney(Longmai),,,,
+MN,PZ,Pherzawl,Pherzawl,,,,
+ML,EG,East Garo Hills,Williamnagar,317618,2603,121,https://web.archive.org/web/20080615020254/http://eastgarohills.nic.in/
+ML,EK,East Khasi Hills,Shillong,824059,2752,292,http://eastkhasihills.gov.in/
+ML,EJH,East Jaintia Hills,Khliehriat,122436,2115,,http://eastjaintiahills.gov.in/
+ML,NGH,North Garo Hills,Resubelpara,118325,1113,,http://northgarohills.gov.in/
+ML,RB,Ri Bhoi,Nongpoh,258380,2378,109,http://ribhoi.gov.in/
+ML,SG,South Garo Hills,Baghmara,142574,1850,77,http://southgarohills.gov.in/
+ML,SWG,South West Garo Hills,Ampati,,,,http://southwestgarohills.gov.in/
+ML,SWK,South West Khasi Hills,Mawkyrwat,110152,1341,,http://southwestkhasihills.gov.in/
+ML,WJ,West Jaintia Hills,Jowai,270352,1693,,http://westjaintiahills.gov.in/
+ML,WG,West Garo Hills,Tura,642923,3714,173,http://westgarohills.gov.in/
+ML,WK,West Khasi Hills,Nongstoin,385601,5247,73,http://westkhasihills.gov.in/
+MZ,AI,Aizawl,Aizawl,404054,3577,113,http://aizawl.nic.in/
+MZ,CH,Champhai,Champhai,125370,3168,39,http://champhai.nic.in/
+MZ,KO,Kolasib,Kolasib,83054,1386,60,http://kolasib.nic.in/[permanent dead link]
+MZ,LA,Lawngtlai,Lawngtlai,117444,2519,46,http://lawngtlai.nic.in/[permanent dead link]
+MZ,LU,Lunglei,Lunglei,154094,4572,34,http://lunglei.nic.in/
+MZ,MA,Mamit,Mamit,85757,2967,28,http://mamit.nic.in/
+MZ,SA,Saiha,Saiha,56366,1414,40,http://saiha.nic.in/
+MZ,SE,Serchhip,Serchhip,64875,1424,46,https://web.archive.org/web/20090416165056/http://serchhip.nic.in/
+NL,DI,Dimapur,Dimapur,379769,926,410,http://dimapur.nic.in/
+NL,KI,Kiphire,Kiphire,74033,1255,66,http://kiphire.nic.in/
+NL,KO,Kohima,Kohima,270063,1041,213,http://kohima.nic.in/
+NL,LO,Longleng,Longleng,50593,885,89,http://kohima.nic.in/
+NL,MK,Mokokchung,Mokokchung,193171,1615,120,http://mokokchung.nic.in/
+NL,MN,Mon,Mon,259604,1786,145,http://mon.nic.in/
+NL,PE,Peren,Peren,163294,2300,55,http://peren-district.nic.in/
+NL,PH,Phek,Phek,163294,2026,81,http://phek.nic.in/
+NL,TU,Tuensang,Tuensang,414801,4228,98,http://tuensang.nic.in/
+NL,WO,Wokha,Wokha,166239,1628,120,http://wokha.nic.in/
+NL,ZU,Zunheboto,Zunheboto,141014,1255,112,http://zunheboto.nic.in/
+OD,AN,Angul,Angul,1271703,6347,199,http://angul.nic.in/
+OD,BD,Boudh (Bauda),Boudh,439917,4289,142,http://boudh.nic.in/
+OD,BH,Bhadrak,Bhadrak,1506522,2788,601,http://bhadrak.nic.in
+OD,BL,Balangir,Balangir,1648574,6552,251,http://balangir.nic.in
+OD,BR,Bargarh (Baragarh),Bargarh,1478833,5832,253,http://bargarh.nic.in
+OD,BW,Balasore,Balasore,2317419,3706,609,http://baleswar.nic.in/
+OD,CU,Cuttack,Cuttack,2618708,3915,666,http://cuttack.nic.in
+OD,DE,Debagarh (Deogarh),Debagarh,312164,2781,106,http://deogarh.nic.in
+OD,DH,Dhenkanal,Dhenkanal,1192948,4597,268,http://dhenkanal.nic.in/
+OD,GN,Ganjam,Chhatrapur,3520151,8033,429,http://ganjam.nic.in/
+OD,GP,Gajapati,Paralakhemundi,575880,3056,133,http://gajapati.nic.in
+OD,JH,Jharsuguda,Jharsuguda,579499,2202,274,http://jharsuguda.nic.in
+OD,JP,Jajpur,Panikoili,1826275,2885,630,http://jajpur.nic.in
+OD,JS,Jagatsinghpur,Jagatsinghpur,1136604,1759,681,http://www.jagatsinghpur.nic.in/
+OD,KH,Khordha,Khordha,2246341,2888,799,http://khordha.nic.in
+OD,KJ,Kendujhar (Keonjhar),Kendujhar,1802777,8336,217,http://kendujhar.nic.in
+OD,KL,Kalahandi,Bhawanipatna,1573054,8197,199,http://kalahandi.nic.in/
+OD,KN,Kandhamal,Phulbani,731952,6004,91,http://kandhamal.nic.in/
+OD,KO,Koraput,Koraput,1376934,8534,156,http://koraput.nic.in
+OD,KP,Kendrapara,Kendrapara,1439891,2546,545,http://kendrapara.nic.in
+OD,ML,Malkangiri,Malkangiri,612727,6115,106,http://malkangiri.nic.in
+OD,MY,Mayurbhanj,Baripada,2513895,10418,241,http://mayurbhanj.nic.in/
+OD,NB,Nabarangpur,Nabarangpur,1218762,5135,230,http://nabarangpur.nic.in
+OD,NU,Nuapada,Nuapada,606490,3408,157,http://www.nuapada.nic.in/
+OD,NY,Nayagarh,Nayagarh,962215,3954,247,http://www.nayagarh.nic.in
+OD,PU,Puri,Puri,1697983,3055,488,http://puri.nic.in/
+OD,RA,Rayagada,Rayagada,961959,7585,136,http://rayagada.nic.in/
+OD,SA,Sambalpur,Sambalpur,1044410,6702,158,http://sambalpur.nic.in/
+OD,SO,Subarnapur (Sonepur),Subarnapur,652107,2284,279,http://subarnapur.nic.in
+OD,SU,Sundargarh,Sundargarh,2080664,9942,214,http://sundergarh.nic.in/
+PY,KA,Karaikal,Karaikal,200314,160,1252,http://Karaikal.gov.in/
+PY,MA,Mahe,Mahé,41934,9,4659,http://mahe.gov.in/
+PY,PO,Pondicherry,Pondicherry,946600,293,3231,http://puducherry.nic.in/[permanent dead link]
+PY,YA,Yanam,Yanam,55616,17,3272,https://web.archive.org/web/20050130000201/http://yanam.nic.in/
+PB,AM,Amritsar,Amritsar,2490891,2673,932,http://amritsar.nic.in/
+PB,BNL,Barnala,Barnala,596294,1423,419,
+PB,BA,Bathinda,Bathinda,1388859,3355,414,http://bathinda.nic.in/
+PB,FI,Firozpur,Firozpur,2026831,5334,380,http://ferozepur.nic.in/
+PB,FR,Faridkot,Faridkot,618008,1472,424,http://faridkot.nic.in/
+PB,FT,Fatehgarh Sahib,Fatehgarh Sahib,599814,1180,508,http://fatehgarhsahib.nic.in/
+PB,FA,Fazilka[11],Fazilka,,,http://fazilka.nic.in/[permanent dead link]
+PB,GU,Gurdaspur,Gurdaspur,2299026,3542,649,http://gurdaspur.nic.in/
+PB,HO,Hoshiarpur,Hoshiarpur,1582793,3397,466,http://hoshiarpur.nic.in/
+PB,JA,Jalandhar,Jalandhar,2181753,2625,831,http://jalandhar.nic.in/
+PB,KA,Kapurthala,Kapurthala,817668,1646,501,https://web.archive.org/web/20090402052733/http://kapurthala.nic.in/
+PB,LU,Ludhiana,Ludhiana,3487882,3744,975,http://ludhiana.nic.in/
+PB,MA,Mansa,Mansa,768808,2174,350,http://mansa.nic.in/
+PB,MO,Moga,Moga,992289,2235,444,http://moga.nic.in/
+PB,MU,Sri Muktsar Sahib,Sri Muktsar Sahib,902702,2596,348,http://muktsar.nic.in/
+PB,PA,Pathankot,Pathankot,1998464,,398,http://Pathankot.nic.in/[permanent dead link]
+PB,PA,Patiala,Patiala,2892282,3175,596,http://patiala.nic.in/
+PB,RU,Rupnagar,Rupnagar,683349,1400,488,http://rupnagar.nic.in/
+PB,SAS,Sahibzada Ajit Singh Nagar,Mohali,986147,1188,830,http://www.sasnagar.gov.in/
+PB,SA,Sangrur,Sangrur,1654408,3685,449,http://sangrur.nic.in/
+PB,PB,Shahid Bhagat Singh Nagar,Nawanshahr,614362,1283,479,http://nawanshahr.nic.in/
+PB,TT,Tarn Taran,Tarn Taran Sahib,1120070,2414,464,
+RJ,AJ,Ajmer,Ajmer,2584913,8481,305,https://web.archive.org/web/20120321063515/http://ajmer.nic.in/
+RJ,AL,Alwar,Alwar,3671999,8380,438,https://web.archive.org/web/20120803030422/http://alwar.nic.in/
+RJ,BI,Bikaner,Bikaner,2367745,27244,78,https://web.archive.org/web/20090508152731/http://bikaner.nic.in/
+RJ,BM,Barmer,Barmer,2604453,28387,92,https://web.archive.org/web/20141218154347/http://barmer.nic.in/
+RJ,BN,Banswara,Banswara,1798194,5037,399,https://web.archive.org/web/20090416185040/http://banswara.nic.in/
+RJ,BP,Bharatpur,Bharatpur,2549121,5066,503,https://web.archive.org/web/20130512184953/http://bharatpur.nic.in/
+RJ,BR,Baran,Baran,1223921,6955,175,https://web.archive.org/web/20090425203918/http://baran.nic.in/
+RJ,BU,Bundi,Bundi,1113725,5550,193,https://web.archive.org/web/20090501203724/http://bundi.nic.in/
+RJ,BW,Bhilwara,Bhilwara,2410459,10455,230,https://web.archive.org/web/20090508053201/http://bhilwara.nic.in/
+RJ,CR,Churu,Churu,2041172,16830,148,https://web.archive.org/web/20120206042050/http://churu.nic.in/
+RJ,CT,Chittorgarh,Chittorgarh,1544392,10856,193,https://web.archive.org/web/20090409231429/http://chittorgarh.nic.in/
+RJ,DA,Dausa,Dausa,1637226,3429,476,https://web.archive.org/web/20110415191601/http://dausa.nic.in/
+RJ,DH,Dholpur,Dholpur,1207293,3084,398,https://web.archive.org/web/20050829124718/http://dholpur.nic.in/
+RJ,DU,Dungarpur,Dungarpur,1388906,3771,368,http://dungapur.nic.in/[permanent dead link]
+RJ,GA,Ganganagar,Ganganagar,1969520,10990,179,https://web.archive.org/web/20120119115934/http://ganganagar.nic.in/
+RJ,HA,Hanumangarh,Hanumangarh,1779650,9670,184,https://web.archive.org/web/20090429195052/http://hanumangarh.nic.in/
+RJ,JJ,Jhunjhunu,Jhunjhunu,2139658,5928,361,https://web.archive.org/web/20120223160948/http://jhunjhunu.nic.in/
+RJ,JL,Jalore,Jalore,1830151,10640,172,https://web.archive.org/web/20111007100206/http://jalore.nic.in/
+RJ,JO,Jodhpur,Jodhpur,3685681,22850,161,https://web.archive.org/web/20130523045929/http://jodhpur.nic.in/
+RJ,JP,Jaipur,Jaipur,6663971,11152,598,https://web.archive.org/web/20110717032559/http://jaipur.nic.in/
+RJ,JS,Jaisalmer,Jaisalmer,672008,38401,17,https://web.archive.org/web/20090409231232/http://jaisalmer.nic.in/
+RJ,JW,Jhalawar,Jhalawar,1411327,6219,227,https://web.archive.org/web/20090410052547/http://www.jhalawar.nic.in/
+RJ,KA,Karauli,Karauli,1458459,5530,264,https://web.archive.org/web/20090410052542/http://www.karauli.nic.in/
+RJ,KO,Kota,Kota,1950491,5446,374,http://kota.rajasthan.gov.in/
+RJ,NA,Nagaur,Nagaur,3309234,17718,187,https://web.archive.org/web/20071203231308/http://www.nagaur.nic.in/
+RJ,PA,Pali,Pali,2038533,12387,165,https://web.archive.org/web/20130523080700/http://pali.nic.in/
+RJ,PG,Pratapgarh,Pratapgarh,868231,4112,211,http://pratapgarh.nic.in/
+RJ,RA,Rajsamand,Rajsamand,1158283,3853,302,https://web.archive.org/web/20090409231231/http://rajsamand.nic.in/
+RJ,SK,Sikar,Sikar,2677737,7732,346,https://web.archive.org/web/20121005161012/http://sikar.nic.in/
+RJ,SM,Sawai Madhopur,Sawai Madhopur,1338114,4500,257,https://web.archive.org/web/20130520123107/http://sawaimadhopur.nic.in/
+RJ,SR,Sirohi,Sirohi,1037185,5136,202,http://sirohi.nic.in/[permanent dead link]
+RJ,TO,Tonk,Tonk,1421711,7194,198,https://web.archive.org/web/20090410052537/http://www.tonk.nic.in/
+RJ,UD,Udaipur,Udaipur,3067549,13430,242,https://web.archive.org/web/20090428161041/http://udaipur.nic.in/
+SK,ES,East Sikkim,Gangtok,281293,954,295,https://web.archive.org/web/20130815205320/http://esikkim.gov.in/
+SK,NS,North Sikkim,Mangan,43354,4226,10,https://web.archive.org/web/20130815205319/http://nsikkim.gov.in/
+SK,SS,South Sikkim,Namchi,146742,750,196,https://web.archive.org/web/20130815205319/http://ssikkim.gov.in/
+SK,WS,West Sikkim,Geyzing,136299,1166,117,https://web.archive.org/web/20130815205319/http://wsikkim.gov.in/
+TN,AY,Ariyalur,Ariyalur,752481,3208,Map,387,https://web.archive.org/web/20090511085214/http://municipality.tn.gov.in/ariyalur/,
+TN,CH,Chennai,Chennai (Madras),4681087,174,Map,26903,http://www.chennai.tn.nic.in/,
+TN,CO,Coimbatore,Coimbatore,3472578,7469,Map,748,http://www.coimbatore.tn.nic.in/,
+TN,CU,Cuddalore,Cuddalore,2600880,3999,Map,702,http://www.cuddalore.tn.nic.in/,
+TN,DH,Dharmapuri,Dharmapuri,1502900,4532,Map,332,http://www.dharmapuri.tn.nic.in/,
+TN,DI,Dindigul,Dindigul,2161367,6058,Map,357,http://www.dindigul.tn.nic.in/,
+TN,ER,Erode,Erode,2259608,5714,Map,397,http://erode.nic.in/,
+TN,KC,Kanchipuram,Kanchipuram,3990897,4433,Map,927,http://www.kanchi.tn.nic.in/,
+TN,KK,Kanyakumari,Nagercoil,2863178,1685,Map,1106,http://www.kanyakumari.tn.nic.in/,
+TN,KA,Karur,Karur,1076588,2901,Map,371,http://karur.nic.in/,
+TN,KR,Krishnagiri,Krishnagiri,1883731,5086,Map,370,http://krishnagiri.nic.in/,
+TN,MA,Madurai,Madurai,3991038,3676,Map,823,http://www.madurai.tn.nic.in/,
+TN,NG,Nagapattinam,Nagapattinam,1614069,2716,Map,668,http://www.nagapattinam.tn.nic.in/,
+TN,NI,Nilgiris,Udagamandalam (Ootacamund/Ooty),735071,2549,,288,http://nilgiris.nic.in/,
+TN,NM,Namakkal,Namakkal,1721179,3429,Map,506,http://namakkal.nic.in/,
+TN,PE,Perambalur,Perambalur,564511,1752,Map,323,http://www.perambalur.tn.nic.in/,
+TN,PU,Pudukkottai,Pudukkottai,1918725,4651,Map,348,http://pudukkottai.nic.in/,
+TN,RA,Ramanathapuram,Ramanathapuram,1337560,4123,Map,320,http://ramanathapuram.nic.in/,
+TN,SA,Salem,Salem,3480008,5245,Map,663,http://salem.nic.in/,
+TN,SI,Sivaganga,Sivaganga,1341250,4086,Map,324,http://sivaganga.nic.in/,
+TN,TP,Tirupur,Tirupur,2471222,5106,,476,http://tiruppurcorp.tn.gov.in/[permanent dead link],
+TN,TC,Tiruchirappalli,Tiruchirappalli,2713858,4407,Map,602,http://tiruchirappalli.nic.in/,
+TN,TH,Theni,Theni,1243684,3066,Map,433,http://www.theni.tn.nic.in/,
+TN,TI,Tirunelveli,Tirunelveli,3072880,6703,Map,458,http://www.nellai.tn.nic.in/,
+TN,TJ,Thanjavur,Thanjavur,2402781,3397,Map,691,http://thanjavur.nic.in/,
+TN,TK,Thoothukudi,Thoothukudi (Tuticorin),1738376,4594,Map,378,http://thoothukudi.nic.in/,
+TN,TL,Tiruvallur,Tiruvallur,3725697,3424,Map,1049,http://www.tiruvallur.tn.nic.in/,
+TN,TR,Tiruvarur,Tiruvarur,1268094,2377,Map,533,http://www.tiruvarur.tn.nic.in/,
+TN,TV,Tiruvannamalai,Tiruvannaamalai,2468965,6191,Map,399,http://www.tiruvannamalai.tn.nic.in/,
+TN,VE,Vellore,Vellore,3928106,6077,Map,646,http://vellore.nic.in/,
+TN,VL,Viluppuram,Viluppuram,3463284,7190,Map,462,http://www.viluppuram.tn.nic.in/,
+TN,VR,Virudhunagar,Virudhunagar,1943309,3446,Map,454,http://www.virudhunagar.tn.nic.in/,
+TS,AD,Adilabad,Adilabad,708952,418597,171,http://adilabad.nic.in/
+TS,KB,Komaram Bheem Asifabad,Asifabad,515835,430016,106,http://asifabad.telangana.gov.in/
+TS,BK,Bhadradri Kothagudem,Kothagudem,1304811,895100,143,http://kothagudem.telangana.gov.in/
+TS,HY,Hyderabad,Hyderabad,3441992,432529,18172,https://web.archive.org/web/20150512061918/http://hyderabad.nic.in/
+TS,JT,Jagtial,Jagtial,983414,304323,407,http://jagtial.telangana.gov.in/
+TS,JG,Jangaon,Jangaon,582457,218750,259,http://jangaon.telangana.gov.in/
+TS,YS,Jayashankar Bhupalpally,Bhupalpalle,712257,636170,115,http://bhoopalapally.telangana.gov.in/
+TS,JLG,Jogulamba Gadwal,Gadwal,664971,292800,208,http://gadwal.telangana.gov.in/
+TS,KR,Kamareddy,Kamareddy,972625,365100,266,http://kamareddy.telangana.gov.in/
+TS,KA,Karimnagar,Karimnagar,1016063,237907,473,http://karimnagar.nic.in/
+TS,KH,Khammam,Khammam,1401639,445300,321,https://web.archive.org/web/20120409145424/http://khammam.nic.in/
+TS,MB,Mahabubabad,Mahabubabad,770170,287670,269,http://mahabubabad.telangana.gov.in/
+TS,MA,Mahbubnagar,Mahbubnagar,1318110,403700,281,http://mahabubnagar.nic.in/
+TS,MC,Mancherial,Mancherial,807037,405636,201,http://mancherial.telangana.gov.in/
+TS,ME,Medak,Medak,767428,274089,275,https://web.archive.org/web/20151005194323/http://medak.nic.in/
+TS,MG,Medchal,Malkajgiri,2542203,500598,2251,http://medchal.telangana.gov.in/
+TS,NA,Nalgonda,Nalgonda,1631399,244979,227,http://nalgonda.nic.in/
+TS,,Nagarkurnool,Nagarkurnool,893308,654500,124,http://nagarkurnool.telangana.gov.in/
+TS,,Nirmal,Nirmal,709415,356251,185,http://nirmal.telangana.gov.in/
+TS,NI,Nizamabad,Nizamabad,1534428,415300,366,https://web.archive.org/web/20150506044210/http://nizamabad.nic.in/
+TS,PP,Peddapalli,Peddapalle,795332,461474,356,http://peddapalli.telangana.gov.in/
+TS,RS,Rajanna Sircilla,Sircilla,546121,203089,273,http://sircilla.telangana.gov.in/
+TS,RA,Ranga Reddy,Hyderabad,2551731,103800,486,https://web.archive.org/web/20120621064915/http://rangareddy.nic.in/
+TS,SR,Sangareddy,Sangareddy,1527628,446487,347,http://sangareddy.telangana.gov.in/
+TS,SP,Siddipet,Siddipet,993376,342519,279,http://siddipet.telangana.gov.in/
+TS,SYP,Suryapet,Suryapet,1099560,337447,305,http://suryapet.telangana.gov.in/
+TS,VB,Vikarabad,Vikarabad,881250,338500,274,http://vikarabad.telangana.gov.in/
+TS,WP,Wanaparthy,Wanaparthy,751553,293800,268,http://wanaparthy.telangana.gov.in/
+TS,WLU,Warangal (urban),Warangal,1135707,130450,826,http://warangalurban.telangana.gov.in/
+TS,WLR,Warangal (rural),Warangal,716457,217550,330,http://hanamkonda.telangana.gov.in/
+TS,YD,Yadadri Bhuvanagiri,Bhongiri,726465,309148,239,http://yadadri.telangana.gov.in/
+TR,DH,Dhalai,Ambassa,377988,2400,157,http://dhalai.gov.in/
+TR,GM,Gomati,"Udaipur, Tripura",436868,15228,287,http://gomati.nic.in/
+TR,KH,Khowai,Khowai,327391,100567,326,http://khowai.nic.in/
+TR,NT,North Tripura,Dharmanagar,415946,14445,288,http://northtripura.gov.in/
+TR,SP,Sepahijala[13],Bishramganj,484233,104478,463,http://sepahijala.nic.in/
+TR,ST,South Tripura,Belonia,433737,15342,283,http://southtripura.nic.in/
+TR,UK,Unokoti,Kailashahar,277335,59193,469,http://unakoti.nic.in/
+TR,WT,West Tripura,Agartala,917534,94255,973,http://westtripura.nic.in/
+UP,AG,Agra,Agra,4380793,4027,1084,http://agra.nic.in/def.asp
+UP,AL,Aligarh,Aligarh,3673849,3747,1007,http://aligarh.nic.in/
+UP,AH,Allahabad,Allahabad,5959798,5481,1087,http://allahabad.nic.in/
+UP,AN,Ambedkar Nagar,Akbarpur,2398709,2372,1021,http://ambedkarnagar.nic.in/
+UP,CS,Amethi (Chhatrapati Shahuji Maharaj Nagar)[15],Gauriganj,,,,
+UP,JP,Amroha (Jyotiba Phule Nagar),Amroha,1838771,2321,818,https://web.archive.org/web/20160312173025/http://jpnagar.nic.in/
+UP,AU,Auraiya,Auraiya,1372287,2051,681,https://web.archive.org/web/20070906234458/http://auraya.nic.in/
+UP,AZ,Azamgarh,Azamgarh,4616509,4053,1139,http://azamgarh.nic.in/
+UP,BG,Bagpat,Baghpat,1302156,1345,986,http://bagpat.nic.in/
+UP,BH,Bahraich,Bahraich,2384239,4926,415,http://behraich.nic.in/
+UP,BL,Ballia,Ballia,3223642,2981,1081,http://ballia.nic.in/
+UP,BP,Balrampur,Balrampur,2149066,3349,642,http://balrampur.nic.in/
+UP,BN,Banda,Banda,1799541,4413,404,http://banda.nic.in/
+UP,BB,Barabanki,Barabanki,3257983,3825,739,http://barabanki.nic.in/
+UP,BR,Bareilly,Bareilly,4465344,4120,1084,http://bareilly.nic.in/
+UP,BS,Basti,Basti,2461056,2687,916,http://basti.nic.in/
+UP,BI,Bijnor,Bijnor,3683896,4561,808,http://bijnor.nic.in
+UP,BD,Budaun,Budaun,3712738,5168,718,http://badaun.nic.in/
+UP,BU,Bulandshahr,Bulandshahr,3498507,3719,788,http://bulandshahar.nic.in/
+UP,CD,Chandauli,Chandauli,1952713,2554,768,http://chandauli.nic.in/
+UP,CT,Chitrakoot,Karwi,990626,3202,315,http://chitrakoot.nic.in/
+UP,DE,Deoria,Deoria,3098637,2535,1220,http://deoria.nic.in/
+UP,ET,Etah,Etah,1761152,2456,717,http://etah.nic.in/
+UP,EW,Etawah,Etawah,1579160,2287,683,http://etawah.nic.in/
+UP,FZ,Faizabad,Faizabad,2468371,2765,1054,http://faizabad.nic.in/
+UP,FR,Farrukhabad,Fatehgarh,1887577,2279,865,http://farrukhabad.nic.in/
+UP,FT,Fatehpur,Fatehpur,2632684,4152,634,http://fatehpur.nic.in/
+UP,FI,Firozabad,Firozabad,2496761,2361,1044,http://firozabad.nic.in/
+UP,GB,Gautam Buddh Nagar,Noida,1674714,1269,1252,http://gbnagar.nic.in/
+UP,GZ,Ghaziabad,Ghaziabad,4661452,1175,3967,http://ghaziabad.nic.in/
+UP,GP,Ghazipur,Ghazipur,3622727,3377,1072,http://ghazipur.nic.in/
+UP,GN,Gonda,Gonda,3431386,4425,857,http://gonda.nic.in/
+UP,GR,Gorakhpur,Gorakhpur,4436275,3325,1336,http://gorakhpur.nic.in/
+UP,HM,Hamirpur,Hamirpur,1104021,4325,268,http://hamirpur.nic.in/
+UP,PN,Hapur (Panchsheel Nagar),Hapur,1451983,,,
+UP,HR,Hardoi,Hardoi,4091380,5986,683,http://hardoi.nic.in/
+UP,HT,Hathras (Mahamaya Nagar),Hathras,1565678,1752,851,http://hathras.nic.in/
+UP,JL,Jalaun,Orai,1670718,4565,366,http://jalaun.nic.in/
+UP,JU,Jaunpur,Jaunpur,4476072,4038,1108,http://jaunpur.nic.in/
+UP,JH,Jhansi,Jhansi,2000755,5024,398,http://jhansi.nic.in/
+UP,KJ,Kannauj,Kannauj,1658005,1993,792,http://kannauj.nic.in/
+UP,KD,Kanpur Dehat (Ramabai Nagar),Akbarpur (Mati),1795092,3021,594,http://kanpurdehat.nic.in//
+UP,KN,Kanpur Nagar,Kanpur,4572951,3156,1415,http://kanpurnagar.nic.in/
+UP,KR,Kasganj (Kanshi Ram Nagar),Kasganj,1438156,1955,736,https://web.archive.org/web/20150701184726/http://www.kanshiramnagar.nic.in/
+UP,KS,Kaushambi,Manjhanpur,1596909,1837,897,https://web.archive.org/web/20160513183352/http://kaushambhi.nic.in/
+UP,KU,Kushinagar,Padrauna,3560830,2909,1226,http://kushinagar.nic.in/
+UP,LK,Lakhimpur Kheri,Lakhimpur,4013634,7674,523,http://kheri.nic.in/
+UP,LA,Lalitpur,Lalitpur,1218002,5039,242,http://lalitpur.nic.in/
+UP,LU,Lucknow,Lucknow,4588455,2528,1815,http://lucknow.nic.in/
+UP,MG,Maharajganj,Maharajganj,2665292,2953,903,http://maharajganj.nic.in/
+UP,MH,Mahoba,Mahoba,876055,2847,288,http://mahoba.nic.in/
+UP,MP,Mainpuri,Mainpuri,1847194,2760,670,http://mainpuri.nic.in/
+UP,MT,Mathura,Mathura,2541894,3333,761,http://mathura.nic.in/
+UP,MB,Mau,Mau,2205170,1713,1287,http://mau.nic.in/
+UP,ME,Meerut,Meerut,3447405,2522,1342,http://meerut.nic.in/
+UP,MI,Mirzapur,Mirzapur,2494533,4522,561,http://mirzapur.nic.in/
+UP,MO,Moradabad,Moradabad,4773138,3718,1284,http://moradabad.nic.in/
+UP,MU,Muzaffarnagar,Muzaffarnagar,4138605,4008,1033,http://muzaffarnagar.nic.in/
+UP,PI,Pilibhit,Pilibhit,2037225,3499,567,http://www.pilibhit.nic.in/
+UP,PR,Pratapgarh,Pratapgarh,3173752,3717,854,http://pratapgarh.nic.in/
+UP,RB,Raebareli,Raebareli,3404004,4609,739,http://raebareli.nic.in/
+UP,RA,Rampur,Rampur,2335398,2367,987,http://rampur.nic.in/
+UP,SA,Saharanpur,Saharanpur,3464228,3689,939,http://saharanpur.nic.in/
+UP,SM,Sambhal (Bheem Nagar),Sambhal,2217020,-,-,https://web.archive.org/web/20140622025850/http://moradabad.nic.in/sambhal/
+UP,SK,Sant Kabir Nagar,Khalilabad,1714300,1442,1014,http://sknagar.nic.in/
+UP,SR,Bhadohi,Gyanpur,1554203,960,1531,http://bhadohi.nic.in/
+UP,SJ,Shahjahanpur,Shahjahanpur,3002376,4575,673,http://shahjahanpur.nic.in/
+UP,SH,Shamli[16],Shamli, —,, —,http://nppshamli.in/statis.aspx
+UP,SV,Shravasti,Shravasti,1114615,1948,572,http://shravasti.nic.in/
+UP,SN,Siddharthnagar,Naugarh,2553526,2751,882,http://sidharthnagar.nic.in/
+UP,SI,Sitapur,Sitapur,4474446,5743,779,http://sitapur.nic.in/
+UP,SO,Sonbhadra,Robertsganj,1862612,6788,274,http://sonbhadra.nic.in/
+UP,SU,Sultanpur,Sultanpur,3790922,4436,855,http://sultanpur.nic.in
+UP,UN,Unnao,Unnao,3110595,4561,682,http://unnao.nic.in/
+UP,VA,Varanasi,Varanasi,3682194,1535,2399,http://varanasi.nic.in/
+UK,AL,Almora,Almora,621927,3090,198,http://almora.nic.in/
+UK,BA,Bageshwar,Bageshwar,259840,2310,116,http://bageshwar.nic.in/
+UK,CL,Chamoli,Gopeshwar,391114,7692,49,http://chamoli.nic.in/
+UK,CP,Champawat,Champawat,259315,1781,147,http://champawat.nic.in/
+UK,DD,Dehradun,Dehradun,1698560,3088,550,http://dehradun.nic.in/
+UK,HA,Haridwar,Haridwar,1927029,2360,817,http://haridwar.nic.in/
+UK,NA,Nainital,Nainital,955128,3853,225,http://nainital.nic.in/
+UK,PG,Pauri Garhwal,Pauri,686527,5438,129,http://pauri.nic.in/
+UK,PI,Pithoragarh,Pithoragarh,485993,7110,69,http://pithoragarh.nic.in/
+UK,RP,Rudraprayag,Rudraprayag,236857,1896,119,http://rudraprayag.nic.in/
+UK,TG,Tehri Garhwal,New Tehri,616409,4085,169,http://tehri.nic.in/
+UK,US,Udham Singh Nagar,Rudrapur,1648367,2912,648,http://usnagar.nic.in/
+UK,UT,Uttarkashi,Uttarkashi,329686,7951,41,http://uttarkashi.nic.in/
+WB,AD,Alipurduar,Alipurduar,1700000,3383,400,https://web.archive.org/web/20150213010208/http://alipurduarmunicipality.in/
+WB,BN,Bankura,Bankura,3596292,6882,523,http://bankura.nic.in/
+WB,BR,Paschim Bardhaman,Asansol,2882031,1603,1100,http://bardhaman.nic.in/
+WB,BR,Purba Bardhaman,Bardhaman,4835532,5433,890,http://bardhaman.nic.in/
+WB,BI,Birbhum,Suri,3502387,4545,771,http://birbhum.gov.in/
+WB,KB,Cooch Behar,Cooch Behar,2822780,3387,833,http://coochbehar.gov.in/
+WB,DD,Dakshin Dinajpur,Balurghat,1670931,2183,753,http://ddinajpur.nic.in/
+WB,DA,Darjeeling,Darjeeling,1842034,3149,585,http://darjeeling.gov.in/
+WB,HG,Hooghly,Chinsurah,5520389,3149,1753,http://hooghly.nic.in/
+WB,HR,Howrah,Howrah,4841638,1467,3300,http://howrah.gov.in/
+WB,JA,Jalpaiguri,Jalpaiguri,3869675,6227,621,http://jalpaiguri.nic.in/
+WB,JH,Jhargram,Jhargram,1136548,3038,370,http://www.jhargram.org/
+WB,KA,Kalimpong,Kalimpong,251642,1054,239,
+WB,KO,Kolkata,Kolkata,4486679,185,24252,http://kolkata.gov.in/[permanent dead link]
+WB,MA,Maldah,English Bazar,3997970,3733,1071,http://malda.nic.in/
+WB,MSD,Murshidabad,Baharampur,7102430,5324,1334,http://murshidabad.gov.in/
+WB,NA,Nadia,Krishnanagar,5168488,3927,1316,http://nadia.nic.in/
+WB,PN,North 24 Parganas,Barasat,10082852,4094,2463,http://north24parganas.nic.in/
+WB,PM,Paschim Medinipur,Midnapore,5094238,9345,1076,http://paschimmedinipur.gov.in/
+WB,PR,Purba Medinipur,Tamluk,4417377,4736,923,http://purbamedinipur.gov.in/
+WB,PU,Purulia,Purulia,2927965,6259,468,http://purulia.gov.in/
+WB,PS,South 24 Parganas,Alipore,8153176,9960,819,http://s24pgs.gov.in/
+WB,UD,Uttar Dinajpur,Raiganj,3000849,3180,956,http://uttardinajpur.nic.in/
