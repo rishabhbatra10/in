@@ -10,6 +10,7 @@
 
 # module imports
 from . import states
+from . import utils
 
 CITIES = []
 
@@ -21,7 +22,8 @@ class City(object):
     def __init__(self, abbr: str, name: str, state: str, population: int=None, area: int=None, url: str=None):
         self.name = name
         self.state = states.lookup(state)
-        self.abbr = '%s_%s' %(self.state.abbr, abbr)
+        self.abbr = abbr
+        self.state_abbr = '%s_%s' %(self.state.abbr, abbr)
         self.population = population
         self.area = area
         self.density = self.population // self.area
@@ -42,7 +44,20 @@ class City(object):
         else:
             return False
 
+def load_city():
+    """
+    Loads districs of india data from csv file.
+
+    Also adds city level abbreviation to the package
+    # in.cities.DL_CD
+    :return:
+    """
+
+    return
+
+
 def lookup():
+    utils.ABBR_RE
     return
 
 
