@@ -8,12 +8,9 @@
 
 # python imports
 import csv
-import re
 
 # module imports
 from . import utils
-
-ABBR_RE = re.compile(r'^[a-zA-Z]{2}$')
 
 STATES = []
 UNION_TERRITORIES = []
@@ -117,7 +114,7 @@ def lookup(val: str, field: str=None, use_cache: bool=True) -> str:
     # jellyfish for fuzzy matching
 
     if field is None:
-        if ABBR_RE.match(val):
+        if utils.ABBR_RE.match(val):
             val = val.upper()
             field = 'abbr'
         else:
