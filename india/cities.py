@@ -7,6 +7,7 @@
 # get weather for every city
 
 # python imports
+import csv
 
 # module imports
 from . import states
@@ -52,6 +53,25 @@ def load_city():
     # in.cities.DL_CD
     :return:
     """
+    with open(utils.FILE_NAME['cities']) as citiesfile:
+        cities = csv.reader(citiesfile, delimiter=',')
+        next(cities)
+        for row in cities:
+            # reassigning empty strings of population area or url
+            if len(row[4]) == 0:
+                row[4] = None
+            if len(row[5]) == 0:
+                row[5] = None
+            if len(row[7]) == 0:
+                row[7] = None
+
+            city = City(state=row[0],
+                        abbr=row[1],
+                        name=row[2],
+                        population=row[4],
+                        area=row[5],
+                        url=row[7]
+                        )
 
     return
 
