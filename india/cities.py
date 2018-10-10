@@ -25,9 +25,23 @@ class City(object):
         self.state = states.lookup(state)
         self.abbr = abbr
         self.state_abbr = '%s_%s' %(self.state.abbr, abbr)
-        self.population = population
-        self.area = area
-        self.density = self.population // self.area
+        population_not_none = population is not None
+        area_not_none = area is not None
+
+        if population_not_none:
+            self.population = int(population)
+        else:
+            self.population = None
+
+        if area_not_none:
+            self.area = int(area)
+        else:
+            self.area = None
+
+        if population_not_none and area_not_none:
+            self.density = self.population // self.area
+        else:
+            self.density = None
         self.url = url
 
     def __repr__(self):
@@ -53,7 +67,7 @@ def load_city():
     # in.cities.DL_CD
     :return:
     """
-    with open(utils.FILE_NAME['cities']) as citiesfile:
+    with open(utils.FILE_NAME['cities'], encoding="utf-8") as citiesfile:
         cities = csv.reader(citiesfile, delimiter=',')
         next(cities)
         for row in cities:
@@ -72,6 +86,10 @@ def load_city():
                         area=row[5],
                         url=row[7]
                         )
+            # list of cities
+            CITIES.append(city)
+
+            globals()[city.state_abbr] = city
 
     return
 
@@ -79,5 +97,8 @@ def load_city():
 def lookup():
     utils.ABBR_RE
     return
+
+# initialising cities
+load_city()
 
 

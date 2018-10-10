@@ -481,7 +481,7 @@ PB,BA,Bathinda,Bathinda,1388859,3355,414,http://bathinda.nic.in/
 PB,FI,Firozpur,Firozpur,2026831,5334,380,http://ferozepur.nic.in/
 PB,FR,Faridkot,Faridkot,618008,1472,424,http://faridkot.nic.in/
 PB,FT,Fatehgarh Sahib,Fatehgarh Sahib,599814,1180,508,http://fatehgarhsahib.nic.in/
-PB,FA,Fazilka[11],Fazilka,,,http://fazilka.nic.in/[permanent dead link]
+PB,FA,Fazilka,Fazilka,,,,http://fazilka.nic.in/[permanent dead link]
 PB,GU,Gurdaspur,Gurdaspur,2299026,3542,649,http://gurdaspur.nic.in/
 PB,HO,Hoshiarpur,Hoshiarpur,1582793,3397,466,http://hoshiarpur.nic.in/
 PB,JA,Jalandhar,Jalandhar,2181753,2625,831,http://jalandhar.nic.in/
@@ -668,11 +668,11 @@ UP,PR,Pratapgarh,Pratapgarh,3173752,3717,854,http://pratapgarh.nic.in/
 UP,RB,Raebareli,Raebareli,3404004,4609,739,http://raebareli.nic.in/
 UP,RA,Rampur,Rampur,2335398,2367,987,http://rampur.nic.in/
 UP,SA,Saharanpur,Saharanpur,3464228,3689,939,http://saharanpur.nic.in/
-UP,SM,Sambhal (Bheem Nagar),Sambhal,2217020,-,-,https://web.archive.org/web/20140622025850/http://moradabad.nic.in/sambhal/
+UP,SM,Sambhal (Bheem Nagar),Sambhal,2217020,,,https://web.archive.org/web/20140622025850/http://moradabad.nic.in/sambhal/
 UP,SK,Sant Kabir Nagar,Khalilabad,1714300,1442,1014,http://sknagar.nic.in/
 UP,SR,Bhadohi,Gyanpur,1554203,960,1531,http://bhadohi.nic.in/
 UP,SJ,Shahjahanpur,Shahjahanpur,3002376,4575,673,http://shahjahanpur.nic.in/
-UP,SH,Shamli[16],Shamli, —,, —,http://nppshamli.in/statis.aspx
+UP,SH,Shamli[16],Shamli,,,,http://nppshamli.in/statis.aspx
 UP,SV,Shravasti,Shravasti,1114615,1948,572,http://shravasti.nic.in/
 UP,SN,Siddharthnagar,Naugarh,2553526,2751,882,http://sidharthnagar.nic.in/
 UP,SI,Sitapur,Sitapur,4474446,5743,779,http://sitapur.nic.in/

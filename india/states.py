@@ -25,9 +25,22 @@ class State(object):
         self.name = name
         self.abbr = abbr
         self.capital = capital
-        self.population = population
-        self.area = area
-        self.pop_density = self.population // self.area
+        population_not_none = population is not None
+        area_not_none = area is not None
+
+        if population_not_none:
+            self.population = int(population)
+        else:
+            self.population = None
+
+        if area_not_none:
+            self.area = int(area)
+        else:
+            self.area = None
+
+        if population_not_none and area_not_none:
+            self.density = self.population // self.area
+
         self.language = lang
 
     def __repr__(self):
