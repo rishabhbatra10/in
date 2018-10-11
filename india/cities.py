@@ -15,6 +15,8 @@ from . import utils
 
 CITIES = []
 
+_lookup_cache = {}
+
 
 class City(object):
     """
@@ -59,6 +61,7 @@ class City(object):
         else:
             return False
 
+
 def load_city():
     """
     Loads districs of india data from csv file.
@@ -94,9 +97,38 @@ def load_city():
     return
 
 
-def lookup():
-    utils.ABBR_RE
-    return
+def lookup(val: str, field: str=None, use_cache: bool=True):
+    """ This provides functionality to find city based on the
+       lookup value provided.
+
+       :param str val: if val has 2 alphas it will look for abbrevation
+                       anything else will try to match the state names
+
+       :param str field: can take values, 'None', 'abbr', 'name' to bypass fuzzy matching.
+
+
+       This method caches non-None results, but cache can be bypassed with the
+       `use_cache=False` argument.
+
+       TODO: Add fuzzy matching
+    """
+    if field is None:
+        if utils.ABBR_RE.match(val):
+            val = val.upper()
+            field = 'abbr'
+        else:
+            val = val.capitalize()
+            field = 'name'
+
+    # check if result in cahe
+    cache_key = "%s:%s" %(field, val)
+    if use_cache and cache_key in _lookup_cache:
+        return _lookup_cache[cache_key]
+
+    for city in CITIES:
+        if val == getattr(city, field):
+            _lookup_cache[cache_key] = city
+            return city
 
 # initialising cities
 load_city()
