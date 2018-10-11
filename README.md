@@ -59,8 +59,8 @@ state.language   # primary official language of the state
 Attributes of Cities object
 
 ```python
-city.name # name of the city
-city.state # returns the state of city
+city.name       # name of the city
+city.state      # returns the state of city
 city.population # returns the population of the city
 city.area       # returns the area of the district
 city.density    # returns population density per km^2 of the city
