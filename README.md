@@ -69,3 +69,5 @@ city.url        # returns official webpage of the city
 
 ### Release Notes
 
+<li> Added cities of india with there attributes and states they belong to.
+<li> Added attributes to state objects including population, area and language.
