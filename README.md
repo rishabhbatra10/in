@@ -11,21 +11,21 @@ This repository makes it easy to access metadata of states and union territories
 ```python
 >>> import india
 >>> india.states.AR
-Out: <State: Arunachal Pradesh>
+OUT: <State: Arunachal Pradesh>
 ```
 
 You can also lookup whether your input is state or not.
 ```python
 >>> import india
 >>> india.states.lookup('arunachal pradesh')
-Out: <State: Arunachal Pradesh>
+OUT: <State: Arunachal Pradesh>
 ```
 
 New release enables you to access districts/cities across india with several attributes
 ```python
 >>> import india
 >>> india.cities.KA_BLR
-Out: <City: Bangalore>
+OUT: <City: Bangalore>
 
 ```
 
@@ -33,14 +33,14 @@ Lookup for cities
 ```python
 >>> import india
 >>> india.cities.lookup('Bangalore')
->>> <City: Bangalore>
+OUT: <City: Bangalore>
 ```
 
 Check whether the city is capital
 ```python
 >>> import india
 >>> india.cities.lookup('Bangalore').iscapital()
->>> True
+OUT: True
 ```
 
 ### Attributes
