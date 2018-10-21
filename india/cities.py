@@ -50,7 +50,7 @@ class City(object):
         return "<City: %s>" % self.name
 
     def __str__(self):
-        return self.abbr
+        return self.name
 
     def is_capital(self):
         """
