@@ -20,10 +20,12 @@ class Config(object):
 
         def validate(self):
             # Validating whether Required Configurations are available
-            if not self.config.has_option('WEATHER_API', 'KEY'):
-                raise ValueError('Authorisation Key not found in config file')
-            if not self.config.has_option('WEATHER_API', 'BASE_URL'):
-                raise ValueError('Base Url not found for Support API')
+            if not self.config.has_option('APIXU_API', 'KEY'):
+                raise ImportWarning('Authorisation Key not found in config file \n Not able to fetch the Weather data. \
+                                     Please add KEY to the config file.')
+            if not self.config.has_option('APIXU_API', 'BASE_URL'):
+                raise ImportWarning('Base Url not found for Support API \n Not able to fetch the Weather data. \
+                                     Please add KEY to the config file.')
 
     config_instance = None
 
