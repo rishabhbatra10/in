@@ -1,7 +1,7 @@
 """ This enables easy access to indian districts in the respective states """
 # @coding: utf-8
 # @author: Rishabh Batra
-# @email: ribhu.1996@gmail.com
+# @email: rishabhbatra10@gmail.com
 # TODO:
 # Write the function for loading states
 # get weather for every city
@@ -130,7 +130,6 @@ def lookup(val: str, field: str=None, use_cache: bool=True):
             _lookup_cache[cache_key] = city
             return city
 
+
 # initialising cities
 load_city()
-
-

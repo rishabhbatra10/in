@@ -1,7 +1,7 @@
 """ This enables easy access to indian states and union territories """
 # @coding: utf-8
 # @author: Rishabh Batra
-# @email: ribhu.1996@gmail.com
+# @email: rishabhbatra10@gmail.com
 # TODO:
 # add attribute for state capitals
 # add attribute for state population
