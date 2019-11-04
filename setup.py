@@ -1,10 +1,16 @@
-from india import __version__, __appname__
+""" Setup file for the Module India """
+# @coding: utf-8
+# @author: Rishabh Batra
+# @email: rishabhbatra1002@gmail.com
 
+# external imports
 from setuptools import setup, find_packages
 
+# module imports
+from india import __version__, __appname__
 
 with open("README.md", "r") as fh:
-    long_description = fh.read()
+    LONG_DESCRIPTION = fh.read()
 
 setup(
     name=__appname__,
@@ -12,7 +18,7 @@ setup(
     author="Rishabh Batra",
     author_email="ribhu.1996@gmail.com",
     description="India's states and cities",
-    long_description=long_description,
+    long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
     url="https://github.com/rishabhbatra10/india",
     package_data={'india': ['data/*']},
