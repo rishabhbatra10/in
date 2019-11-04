@@ -76,4 +76,3 @@ class TestStates(unittest.TestCase):
             language, 
             "Provided language not matching with object's language"
             )
-
