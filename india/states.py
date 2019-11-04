@@ -25,22 +25,12 @@ class State(object):
         self.name = name
         self.abbr = abbr
         self.capital = capital
-        population_not_none = population is not None
-        area_not_none = area is not None
-
-        if population_not_none:
-            self.population = int(population)
-        else:
-            self.population = None
-
-        if area_not_none:
-            self.area = int(area)
-        else:
-            self.area = None
-
-        if population_not_none and area_not_none:
-            self.density = self.population // self.area
-
+        self.population = self.stats_validation(population)
+        self.area = self.stats_validation(area)
+        self.density = self.calc_population_density(
+            self.population, 
+            self.area
+        )
         self.language = lang
 
     def __repr__(self):
@@ -48,6 +38,24 @@ class State(object):
 
     def __str__(self):
         return self.name
+
+    @staticmethod
+    def stats_validation(stats: (str, None)=None) -> (int, None):
+        """Validating Statistics entered and converting them to string"""
+        stats_is_not_none = stats is not None
+        if stats_is_not_none:
+            stats = int(stats)
+        else:
+            stats = None
+        return stats
+    
+    @staticmethod
+    def calc_population_density(population, area):
+        if population is not None and area is not None:
+            return population // area
+        else:
+            return None
+
 
 ###  the class functions of the package ends here ###
 def load_states():
