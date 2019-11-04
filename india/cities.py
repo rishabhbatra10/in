@@ -10,8 +10,7 @@
 import csv
 
 # module imports
-from . import states
-from . import utils
+from . import config, states, utils
 
 CITIES = []
 
@@ -26,7 +25,7 @@ class City(object):
         self.name = name
         self.state = states.lookup(state)
         self.abbr = abbr
-        self.state_abbr = '%s_%s' %(self.state.abbr, abbr)
+        self.state_abbr = '%s_%s' % (self.state.abbr, abbr)
         population_not_none = population is not None
         area_not_none = area is not None
 
@@ -60,6 +59,12 @@ class City(object):
             return True
         else:
             return False
+
+    def weather(self):
+        """
+
+        :return:
+        """
 
 
 def load_city():
@@ -106,7 +111,7 @@ def lookup(val: str, field: str=None, use_cache: bool=True):
 
        :param str field: can take values, 'None', 'abbr', 'name' to bypass fuzzy matching.
 
-
+       :param bool use_cache:
        This method caches non-None results, but cache can be bypassed with the
        `use_cache=False` argument.
 
