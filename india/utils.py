@@ -12,7 +12,8 @@ FILE_NAME = {
     'states': WORKING_DIRECTORY + '/data/states.csv',
     'ut': WORKING_DIRECTORY + '/data/ut.csv',
     'cities': WORKING_DIRECTORY + '/data/cities.csv',
-    'towns': WORKING_DIRECTORY + '/data/towns.csv'
+    'towns': WORKING_DIRECTORY + '/data/towns.csv',
+    'config': WORKING_DIRECTORY + '/data/in.conf'
 }
 
 ABBR_RE = re.compile(r'^[a-zA-Z]{2,3}$')
