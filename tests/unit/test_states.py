@@ -14,7 +14,7 @@ from india import states
 
 class TestStates(unittest.TestCase):
     """ Test suite for States module """
-    
+
     def test_state_initialization(self):
         """ Testing state initialization """
         abbrevation = 'KA'
@@ -31,13 +31,13 @@ class TestStates(unittest.TestCase):
                              area=area, 
                              lang=language)
         
-        self.assertEqual(str(state), name)
-        self.assertEqual(type(state), '<State: %s>'.format(name))
-        self.assertEqual(state.name, name)
-        self.assertEqual(state.abbr, abbr)
-        self.assertEqual(state.capital, capital)
-        self.assertEqual(state.population, int(population))
-        self.assertEqual(state.area, int(area))
-        self.assertEqual(state.density, int(population)/ int(area))
-        self.assertEqual(state.language, language)
+        self.assertEqual(str(state), name, "State str not matching with the name")
+        self.assertEqual(type(state), '<State: %s>'.format(name), "Object representation doesn't match with the provided repr")
+        self.assertEqual(state.name, name, "Provided name not matches with object's name")
+        self.assertEqual(state.abbr, abbrevation, "Provided abbrevation not matching with objectss abbrevation")
+        self.assertEqual(state.capital, capital, "Provided capital not matching with object's capital")
+        self.assertEqual(state.population, int(population), "Provided population not matching with object's population")
+        self.assertEqual(state.area, int(area), "Provided area not matching with object's area")
+        self.assertEqual(state.density, int(population)/ int(area), "Provided pop density not matching with object's density")
+        self.assertEqual(state.language, language, "Provided language not matching with object's language")
 
