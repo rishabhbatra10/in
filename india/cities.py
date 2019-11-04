@@ -2,9 +2,8 @@
 # @coding: utf-8
 # @author: Rishabh Batra
 # @email: rishabhbatra10@gmail.com
-# TODO:
-# Write the function for loading states
-# get weather for every city
+# TODO: Write the function for loading states
+# TODO: get weather for every city
 
 # python imports
 import csv
@@ -26,9 +25,9 @@ class City(object):
         self.state = states.lookup(state)
         self.abbr = abbr
         self.state_abbr = '%s_%s' % (self.state.abbr, abbr)
-        self.population = states.State.stats_validation(population)
-        self.area = states.State.stats_validation(area)
-        self.density = states.State.calc_population_density(
+        self.population = self.state.stats_validation(population)
+        self.area = self.state.stats_validation(area)
+        self.density = self.state.calc_population_density(
             self.population, self.density
         )
         self.url = url
@@ -50,9 +49,9 @@ class City(object):
 
     def weather(self):
         """
-
         :return:
         """
+        config.Config().get('Machine')
 
 
 def load_city():

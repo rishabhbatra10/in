@@ -2,8 +2,7 @@
 # @coding: utf-8
 # @author: Rishabh Batra
 # @email: rishabhbatra10@gmail.com
-# TODO:
-# Write class town representing a town
+# TODO: Write class town representing a town
 
 # python imports
 
