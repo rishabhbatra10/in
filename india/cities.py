@@ -26,23 +26,11 @@ class City(object):
         self.state = states.lookup(state)
         self.abbr = abbr
         self.state_abbr = '%s_%s' % (self.state.abbr, abbr)
-        population_not_none = population is not None
-        area_not_none = area is not None
-
-        if population_not_none:
-            self.population = int(population)
-        else:
-            self.population = None
-
-        if area_not_none:
-            self.area = int(area)
-        else:
-            self.area = None
-
-        if population_not_none and area_not_none:
-            self.density = self.population // self.area
-        else:
-            self.density = None
+        self.population = states.State.stats_validation(population)
+        self.area = states.State.stats_validation(area)
+        self.density = states.State.calc_population_density(
+            self.population, self.density
+        )
         self.url = url
 
     def __repr__(self):
