@@ -1,7 +1,7 @@
 """ This enables access to indian towns in respective cities """
 # @coding: utf-8
 # @author: Rishabh Batra
-# @email: rishabhbatra10@gmail.com
+# @email: rishabhbatra1002@gmail.com
 # TODO:
 # Write class town representing a town
 

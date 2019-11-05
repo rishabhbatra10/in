@@ -1,7 +1,7 @@
 """ This enables easy access to indian districts in the respective states """
 # @coding: utf-8
 # @author: Rishabh Batra
-# @email: rishabhbatra10@gmail.com
+# @email: rishabhbatra1002@gmail.com
 # TODO:
 # Write the function for loading states
 # get weather for every city
