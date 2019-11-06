@@ -2,9 +2,6 @@
 # @coding: utf-8
 # @author: Rishabh Batra
 # @email: rishabhbatra1002@gmail.com
-# TODO:
-# add attribute for state capitals
-# add attribute for state population
 
 # python imports
 import csv

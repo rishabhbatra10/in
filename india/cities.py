@@ -3,7 +3,6 @@
 # @author: Rishabh Batra
 # @email: rishabhbatra1002@gmail.com
 # TODO:
-# Write the function for loading states
 # get weather for every city
 
 # python imports
