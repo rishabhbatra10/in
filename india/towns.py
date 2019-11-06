@@ -2,8 +2,7 @@
 # @coding: utf-8
 # @author: Rishabh Batra
 # @email: rishabhbatra1002@gmail.com
-# TODO:
-# Write class town representing a town
+# TODO: Write class town representing a town
 
 # python imports
 
@@ -13,7 +12,7 @@ from . import cities
 TOWNS = []
 
 
-class TOWN(object):
+class Town(object):
     """
     Defines a Town
     """
