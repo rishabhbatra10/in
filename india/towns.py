@@ -1,14 +1,8 @@
 """ This enables access to indian towns in respective cities """
 # @coding: utf-8
 # @author: Rishabh Batra
-<<<<<<< HEAD
-# @email: rishabhbatra10@gmail.com
-# TODO: Write class town representing a town
-=======
 # @email: rishabhbatra1002@gmail.com
-# TODO:
-# Write class town representing a town
->>>>>>> 0e9a42e7dffe20d757a22c1b3e9c552232f2c12b
+# TODO: Write class town representing a town
 
 # python imports
 
@@ -18,7 +12,7 @@ from . import cities
 TOWNS = []
 
 
-class TOWN(object):
+class Town(object):
     """
     Defines a Town
     """
