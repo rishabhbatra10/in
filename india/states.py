@@ -1,13 +1,9 @@
 """ This enables easy access to indian states and union territories """
 # @coding: utf-8
 # @author: Rishabh Batra
-<<<<<<< HEAD
 # @email: rishabhbatra10@gmail.com
 # TODO: add attribute for state capitals
 # TODO: add attribute for state population
-=======
-# @email: rishabhbatra1002@gmail.com
->>>>>>> 0e9a42e7dffe20d757a22c1b3e9c552232f2c12b
 
 # python imports
 import csv
