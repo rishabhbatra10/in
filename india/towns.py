@@ -2,7 +2,7 @@
 # @coding: utf-8
 # @author: Rishabh Batra
 # @email: rishabhbatra1002@gmail.com
-# TODO: Write class town representing a town
+# Write class Town and creating a Town object for every town in database
 
 # python imports
 
@@ -12,11 +12,18 @@ from . import cities
 TOWNS = []
 
 
-class Town(object):
+class Town:
     """
     Defines a Town
     """
-    def __init__(self, pin_code: int, name: str, city: str, latitude: float, longitude: float, accuracy: float):
+    def __init__(self,
+                 pin_code: int,
+                 name: str,
+                 city: str,
+                 latitude: float,
+                 longitude: float,
+                 accuracy: float):
+
         self.pin_code = pin_code
         self.name = name
         self.city = cities.lookup(city)
