@@ -1,7 +1,7 @@
 """ Utils File supporting the module"""
 # @coding: utf-8
 # @author: Rishabh Batra
-# @email: rishabhbatra10@gmail.com
+# @email: rishabhbatra1002@gmail.com
 # python imports
 import os
 import re

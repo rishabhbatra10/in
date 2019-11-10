@@ -1,9 +1,7 @@
 """ This enables easy access to indian states and union territories """
 # @coding: utf-8
 # @author: Rishabh Batra
-# @email: rishabhbatra10@gmail.com
-# TODO: add attribute for state capitals
-# TODO: add attribute for state population
+# @email: rishabhbatra1002@gmail.com
 
 # python imports
 import csv
@@ -27,7 +25,7 @@ class State(object):
         self.population = self.stats_validation(population)
         self.area = self.stats_validation(area)
         self.density = self.calc_population_density(
-            self.population, 
+            self.population,
             self.area
         )
         self.language = lang
@@ -44,8 +42,8 @@ class State(object):
         
         if not isinstance(stats, (str, int, type(None))):
             raise TypeError(
-            "Stats should either be a string of integers, integer or None. Provided type {}"
-            .format(type(stats)))
+                "Stats should either be a string of integers, integer or None. Provided type {}"
+                .format(type(stats)))
         
         stats_is_not_none = stats is not None
         if stats_is_not_none:
@@ -55,14 +53,13 @@ class State(object):
         return stats
     
     @staticmethod
-    def calc_population_density(population: int, area: int) -> int:
+    def calc_population_density(population: int, area: int) -> (int, None):
+        """ Calculating the Population Density given the Population and Area """
         if population is not None and area is not None:
             return population // area
-        else:
-            return None
 
 
-###  the class functions of the package ends here ###
+#  the class functions of the package ends here #
 def load_states():
     """
     Load state data from a csv file in the package
@@ -119,7 +116,7 @@ def load_ut():
             # appends to the master list of all states and territories
             STATES_AND_TERRITORIES.append(ut)
 
-            #provides package-level abbrevation
+            # provides package-level abbrevation
             globals()[ut.abbr] = ut
 
 
@@ -132,7 +129,7 @@ def lookup(val: str, field: str=None, use_cache: bool=True) -> str:
 
     :param str field: can take values, 'None', 'abbr', 'name' to bypass fuzzy matching.
 
-
+    :param bool use_cache: Caching of the Loaded States
     This method caches non-None results, but cache can be bypassed with the
     `use_cache=False` argument.
     TODO: add another attribute to this for lookup of metaphones
