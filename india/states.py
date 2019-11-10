@@ -16,7 +16,7 @@ STATES_AND_TERRITORIES = []
 _lookup_cache = {}
 
 
-class State(object):
+class State:
     """ defines a state"""
     def __init__(self, abbr: str, name: str, capital: str, population: int, area: int, lang: str):
         self.name = name
@@ -39,19 +39,19 @@ class State(object):
     @staticmethod
     def stats_validation(stats: (str, int, None)=None) -> (int, None):
         """Validating Statistics entered and converting them to string"""
-        
+
         if not isinstance(stats, (str, int, type(None))):
             raise TypeError(
                 "Stats should either be a string of integers, integer or None. Provided type {}"
                 .format(type(stats)))
-        
+
         stats_is_not_none = stats is not None
         if stats_is_not_none:
             stats = int(stats)
         else:
             stats = None
         return stats
-    
+
     @staticmethod
     def calc_population_density(population: int, area: int) -> (int, None):
         """ Calculating the Population Density given the Population and Area """
