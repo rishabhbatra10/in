@@ -28,7 +28,7 @@ class City(object):
         self.population = states.State.stats_validation(population)
         self.area = states.State.stats_validation(area)
         self.density = states.State.calc_population_density(
-            self.population, self.density
+            self.population, self.area
         )
         self.url = url
 

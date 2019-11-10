@@ -1,7 +1,7 @@
 """ Testing indian states class """
 # @coding: utf-8
 # @author: Rishabh Batra
-# @email: rishabhbatra10@gmail.com
+# @email: rishabhbatra1002@gmail.com
 # TODO: Write tests for each an every function
 # TODO: Add test failure messages
 
@@ -34,7 +34,7 @@ class TestStates(unittest.TestCase):
         self.assertEqual(str(state), name)
         self.assertEqual(type(state), '<State: %s>'.format(name))
         self.assertEqual(state.name, name)
-        self.assertEqual(state.abbr, abbr)
+        self.assertEqual(state.abbr, abbrevation)
         self.assertEqual(state.capital, capital)
         self.assertEqual(state.population, int(population))
         self.assertEqual(state.area, int(area))
