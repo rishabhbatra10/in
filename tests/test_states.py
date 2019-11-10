@@ -55,17 +55,17 @@ class TestStates(unittest.TestCase):
 
         self.assertEqual(
             self.STATE.capital,
-            self.CAPITAL, 
+            self.CAPITAL,
             "Provided capital not matching with object's capital"
             )
         self.assertEqual(
             self.STATE.population,
-            int(self.POPULATION), 
+            int(self.POPULATION),
             "Provided population not matching with object's population"
             )
         self.assertEqual(
             self.STATE.area,
-            int(self.AREA), 
+            int(self.AREA),
             "Provided area not matching with object's area"
             )
         self.assertEqual(
