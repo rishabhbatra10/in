@@ -7,29 +7,26 @@
 
 # external imports
 import unittest
-import sys
 
 # module imports
-sys.path.append('../../../in')
-from india import states
+from ..unit import states
 
 
 class TestStates(unittest.TestCase):
     """ Test suite for States module """
-    ABBREVATION = 'KA'
+    ABBREVIATION = 'KA'
     NAME = 'Karnataka'
     CAPITAL = 'Bangalore'
-    POPULATION = '61095297' # in numbers
-    AREA = '191791' # km^2 
+    POPULATION = '61095297'  # in numbers
+    AREA = '191791'  # km^2
     LANGUAGE = 'Kannada'
 
-    STATE = states.State(abbr=ABBREVATION, 
-                            name=NAME, 
-                            capital=CAPITAL, 
-                            population=POPULATION, 
-                            area=AREA, 
-                            lang=LANGUAGE)
-
+    STATE = states.State(abbr=ABBREVIATION,
+                         name=NAME,
+                         capital=CAPITAL,
+                         population=int(POPULATION),
+                         area=int(AREA),
+                         lang=LANGUAGE)
 
     def test_state_initialization(self):
         """ Testing state initialization """
@@ -50,7 +47,7 @@ class TestStates(unittest.TestCase):
             )
         self.assertEqual(
             self.STATE.abbr, 
-            self.ABBREVATION, 
+            self.ABBREVIATION,
             "Provided abbrevation not matching with objectss abbrevation"
             )
         self.assertEqual(

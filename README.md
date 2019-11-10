@@ -6,6 +6,11 @@ Installation Using pip
 pip install pyindia
 ```
 
+#### Running Tests
+
+```bash
+python -m unittest discover -s tests
+```
 ### Usage
 This repository makes it easy to access metadata of states and union territories of India.
 ```python
