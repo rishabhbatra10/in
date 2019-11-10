@@ -3,13 +3,12 @@
 # @author: Rishabh Batra
 # @email: rishabhbatra1002@gmail.com
 # TODO: Write tests for each an every function
-# TODO: Add test failure messages
 
 # external imports
 import unittest
 
 # module imports
-from ..unit import states
+from india import states
 
 
 class TestStates(unittest.TestCase):
@@ -31,48 +30,52 @@ class TestStates(unittest.TestCase):
     def test_state_initialization(self):
         """ Testing state initialization """
         self.assertEqual(
-            str(self.STATE), 
-            self.NAME, 
+            str(self.STATE),
+            self.NAME,
             "State str not matching with the name"
-            )
+        )
+
         self.assertEqual(
-            repr(self.STATE), 
-            '<State: {}>'.format(self.NAME), 
+            repr(self.STATE),
+            '<State: {}>'.format(self.NAME),
             "Object representation doesn't match with the provided repr"
-            )
+        )
+
         self.assertEqual(
-            self.STATE.name, 
-            self.NAME, 
+            self.STATE.name,
+            self.NAME,
             "Provided name not matches with object's name"
-            )
+        )
+
         self.assertEqual(
-            self.STATE.abbr, 
+            self.STATE.abbr,
             self.ABBREVIATION,
             "Provided abbrevation not matching with objectss abbrevation"
-            )
+        )
+
         self.assertEqual(
-            self.STATE.capital, 
+            self.STATE.capital,
             self.CAPITAL, 
             "Provided capital not matching with object's capital"
             )
         self.assertEqual(
-            self.STATE.population, 
+            self.STATE.population,
             int(self.POPULATION), 
             "Provided population not matching with object's population"
             )
         self.assertEqual(
-            self.STATE.area, 
+            self.STATE.area,
             int(self.AREA), 
             "Provided area not matching with object's area"
             )
         self.assertEqual(
-            self.STATE.density, 
-            int(self.POPULATION) // int(self.AREA), 
+            self.STATE.density,
+            int(self.POPULATION) // int(self.AREA),
             "Provided pop density not matching with object's density"
             )
         self.assertEqual(
-            self.STATE.language, 
-            self.LANGUAGE, 
+            self.STATE.language,
+            self.LANGUAGE,
             "Provided language not matching with object's language"
             )
 
@@ -80,16 +83,17 @@ class TestStates(unittest.TestCase):
         """ Testing the stats validation for states class"""
         # TEST 1: Function returning None on giving None as Input
         stats = None
-        self.assertEqual(self.STATE.stats_validation(stats), None, 
-            "Function should return none when stats are none."
-        )
+        self.assertEqual(self.STATE.stats_validation(stats), None,
+                         "Function should return none when stats are none."
+                         )
 
         # TEST 2: Function returns an integer on passing str.
         stats = '10939485'
-        self.assertEqual(self.STATE.stats_validation(stats), int(stats), 
-        "Function should return {}".format(int(stats)))
+        self.assertEqual(self.STATE.stats_validation(stats), int(stats),
+                         "Function should return {}".format(int(stats))
+                         )
         
-        # TEST 4: Funcion raises type error on passing a list
+        # TEST 4: Function raises type error on passing a list
         stats = 1029482384
         with self.assertRaises(TypeError):
             self.STATE.stats_validation([stats])
@@ -98,6 +102,7 @@ class TestStates(unittest.TestCase):
         stats = "fsdibvs130923"
         with self.assertRaises(ValueError):
             self.STATE.stats_validation(stats)
+
 
 if __name__ == '__main__':
     unittest.main()
