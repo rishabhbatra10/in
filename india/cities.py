@@ -2,7 +2,7 @@
 # @coding: utf-8
 # @author: Rishabh Batra
 # @email: rishabhbatra1002@gmail.com
-# TODO: get weather for every city
+# Get weather for every city using weather API
 
 # python imports
 import csv
@@ -15,11 +15,17 @@ CITIES = []
 _lookup_cache = {}
 
 
-class City(object):
+class City:
     """
     Defines a city
     """
-    def __init__(self, abbr: str, name: str, state: str, population: int=None, area: int=None, url: str=None):
+    def __init__(self,
+                 abbr: str,
+                 name: str,
+                 state: str,
+                 population: int=None,
+                 area: int=None,
+                 url: str=None):
         self.name = name
         self.state = states.lookup(state)
         self.abbr = abbr
@@ -41,12 +47,10 @@ class City(object):
         """
         :return: boolean whether the city is capital or not
         """
-        if self.name == self.state.capital:
-            return True
-        else:
-            return False
+        return bool(self.name == self.state.capital)
 
-    def weather(self):
+    @staticmethod
+    def weather():
         """
         :return:
         """
@@ -85,7 +89,7 @@ def load_city():
 
             globals()[city.state_abbr] = city
 
-    return
+    return 0
 
 
 def lookup(val: str, field: str=None, use_cache: bool=True):
