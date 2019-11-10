@@ -2,8 +2,7 @@
 # @coding: utf-8
 # @author: Rishabh Batra
 # @email: rishabhbatra1002@gmail.com
-# TODO:
-# get weather for every city
+# TODO: get weather for every city
 
 # python imports
 import csv
@@ -49,9 +48,9 @@ class City(object):
 
     def weather(self):
         """
-
         :return:
         """
+        config.Config().get('Machine')
 
 
 def load_city():

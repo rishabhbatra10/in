@@ -1,7 +1,13 @@
 """ This enables easy access to indian states and union territories """
 # @coding: utf-8
 # @author: Rishabh Batra
+<<<<<<< HEAD
+# @email: rishabhbatra10@gmail.com
+# TODO: add attribute for state capitals
+# TODO: add attribute for state population
+=======
 # @email: rishabhbatra1002@gmail.com
+>>>>>>> 0e9a42e7dffe20d757a22c1b3e9c552232f2c12b
 
 # python imports
 import csv
@@ -37,8 +43,14 @@ class State(object):
         return self.name
 
     @staticmethod
-    def stats_validation(stats: (str, None)=None) -> (int, None):
+    def stats_validation(stats: (str, int, None)=None) -> (int, None):
         """Validating Statistics entered and converting them to string"""
+        
+        if not isinstance(stats, (str, int, type(None))):
+            raise TypeError(
+            "Stats should either be a string of integers, integer or None. Provided type {}"
+            .format(type(stats)))
+        
         stats_is_not_none = stats is not None
         if stats_is_not_none:
             stats = int(stats)
@@ -47,7 +59,7 @@ class State(object):
         return stats
     
     @staticmethod
-    def calc_population_density(population, area):
+    def calc_population_density(population: int, area: int) -> int:
         if population is not None and area is not None:
             return population // area
         else:
