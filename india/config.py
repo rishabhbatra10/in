@@ -7,12 +7,12 @@
 from configparser import ConfigParser
 
 
-class Config(object):
+class Config:
     """
     Handles the singleton use
     of the application configuration
     """
-    class __ActualConfig(object):
+    class __ActualConfig:
         def __init__(self, path):
             self.config = ConfigParser()
             with open(path) as infl:
@@ -20,14 +20,16 @@ class Config(object):
             self.validate()
 
         def validate(self):
+            """ Validating the Config file to check for required attributes """
             # Validating whether Required Configurations are available
             if not self.config.has_option('APIXU_API', 'KEY'):
-                raise ImportWarning('''Authorisation Key not found in config file 
+                raise ImportWarning('''Authorisation Key not found in config file \n
                                      Not able to fetch the Weather data. \
                                      Please add KEY to the config file.''')
             if not self.config.has_option('APIXU_API', 'BASE_URL'):
-                raise ImportWarning('Base Url not found for Support API \n Not able to fetch the Weather data. \
-                                     Please add KEY to the config file.')
+                raise ImportWarning('''Base Url not found for Support API \n
+                                       Not able to fetch the Weather data. \
+                                       Please add KEY to the config file.''')
 
     config_instance = None
 
@@ -47,4 +49,3 @@ class Config(object):
         :return:
         """
         return dict(self.config_instance.config.items(section))
-
