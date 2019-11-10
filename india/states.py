@@ -33,7 +33,7 @@ class State(object):
         self.language = lang
 
     def __repr__(self):
-        return "<State: %s>" % self.name
+        return "<State: {}>".format(self.name)
 
     def __str__(self):
         return self.name
