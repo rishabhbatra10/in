@@ -91,12 +91,12 @@ class TestStates(unittest.TestCase):
         self.assertEqual(self.STATE.stats_validation(stats), int(stats),
                          "Function should return {}".format(int(stats))
                          )
-        
+
         # TEST 4: Function raises type error on passing a list
         stats = 1029482384
         with self.assertRaises(TypeError):
             self.STATE.stats_validation([stats])
-        
+
         # TEST 5: Function raises ValueError on passing a illegal value as integer.
         stats = "fsdibvs130923"
         with self.assertRaises(ValueError):
