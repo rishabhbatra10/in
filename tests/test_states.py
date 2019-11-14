@@ -103,6 +103,25 @@ class TestStates(unittest.TestCase):
         with self.assertRaises(ValueError):
             self.STATE.stats_validation(stats)
 
+    def test_lookup(self):
+        """ Testing the lookup for getting states output """
+
+        # TEST 1: test with abbrevation and use_cache True
+        self.assertEqual(states.lookup(val='KA', field='abbr'), states.KA)
+
+        # TEST 2: test with full name and use_cache = True
+        self.assertEqual(states.lookup(val='manipur', field='name'), states.MN)
+
+        # TEST 3: test with abbrevation without using cache
+        self.assertEqual(states.lookup(val='HR', field='abbr', use_cache=False), states.HR)
+
+        # TEST 4: test with name without using cache
+        self.assertEqual(states.lookup(val='delhi', field='name', use_cache=False), states.DL)
+
+        # TEST 5: test with faulty name so that matching fail
+        with self.assertRaises(ValueError):
+            states.lookup(val='XY', field='abbr')
+
 
 if __name__ == '__main__':
     unittest.main()
