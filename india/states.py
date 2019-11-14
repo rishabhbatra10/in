@@ -135,6 +135,7 @@ def lookup(val: str, field: str=None, use_cache: bool=True) -> str:
     TODO: add another attribute to this for lookup of metaphones
         """
     # jellyfish for fuzzy matching
+    # capitalizing the value to standardize formatting
 
     if field is None:
         if utils.ABBR_RE.match(val):
@@ -143,6 +144,8 @@ def lookup(val: str, field: str=None, use_cache: bool=True) -> str:
         else:
             val = val.capitalize()
             field = 'name'
+    elif field == 'name':
+        val = val.capitalize()
 
     # see if result is in cache
     cache_key = "%s:%s" % (field, val)
@@ -153,6 +156,8 @@ def lookup(val: str, field: str=None, use_cache: bool=True) -> str:
         if val == getattr(state, field):
             _lookup_cache[cache_key] = state
             return state
+
+    raise ValueError('{}. matching state not found. Please try entering something else.'.format(val))
 
 
 # initialising states and territories
