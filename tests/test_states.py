@@ -2,7 +2,6 @@
 # @coding: utf-8
 # @author: Rishabh Batra
 # @email: rishabhbatra1002@gmail.com
-# TODO: Write tests for each an every function
 
 # external imports
 import unittest
