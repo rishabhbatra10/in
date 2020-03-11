@@ -12,5 +12,3 @@ jobs:
       uses: actions/setup-python@v1
       with:
         python-version: 3.7
-        
-pypi-AgEIcHlwaS5vcmcCJDg4ZmNmODkzLTI1NzMtNDE1MS1hZGNiLThmNWE3NjRmMmE1YQACOHsicGVybWlzc2lvbnMiOiB7InByb2plY3RzIjogWyJweWluZGlhIl19LCAidmVyc2lvbiI6IDF9AAAGILq0xbDld8nxDXvePixoXJzLKCxVvB7dYIHwOR95suwb
