@@ -1,0 +1,16 @@
+Publish Python 🐍 distributions 📦 to PyPI and TestPyPI
+
+on: push
+
+jobs:
+  build-n-publish:
+    name: Build and publish Python 🐍 distributions 📦 to PyPI and TestPyPI
+    runs-on: ubuntu-18.04
+    steps:
+    - uses: actions/checkout@master
+    - name: Set up Python 3.7
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.7
+        
+pypi-AgEIcHlwaS5vcmcCJDg4ZmNmODkzLTI1NzMtNDE1MS1hZGNiLThmNWE3NjRmMmE1YQACOHsicGVybWlzc2lvbnMiOiB7InByb2plY3RzIjogWyJweWluZGlhIl19LCAidmVyc2lvbiI6IDF9AAAGILq0xbDld8nxDXvePixoXJzLKCxVvB7dYIHwOR95suwb
