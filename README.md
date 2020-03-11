@@ -1,4 +1,6 @@
 # India package
+
+![Deployment](https://github.com/rishabhbatra10/in/workflows/Publish%20Python%20%F0%9F%90%8D%20distributions%20%F0%9F%93%A6%20to%20PyPI%20and%20TestPyPI/badge.svg?event=deployment)
 #### Version 1.1.0
 ### Installation
 Installation Using pip
