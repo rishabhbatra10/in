@@ -23,7 +23,7 @@ jobs:
         -u __token__
     - name: Publish distribution 📦 to PyPI
       run: >-
-        twine upload
+        twine upload dist/*
         --skip-existing 
         -p ${{ secrets.pypi_api_key }}
         -u __token__
