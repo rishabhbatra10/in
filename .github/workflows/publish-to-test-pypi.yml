@@ -12,15 +12,18 @@ jobs:
       with:
         python-version: 3.7
     - name: Installing wheel 
-      run: pip install wheel
+      run: pip install wheel twine
     - name: Build a binary wheel and a source tarball
       run: python3 setup.py sdist bdist_wheel
-#     - name: Publish distribution 📦 to Test PyPI
-#       uses: pypa/gh-action-pypi-publish@master
-#       with:
-#         password: ${{ secrets.test_pypi_api_key }}
-#         repository_url: https://test.pypi.org/legacy/
+    - name: Publish distribution 📦 to Test PyPI
+      run: >-
+        twine upload --repository-url https://test.pypi.org/legacy/ dist/* 
+        --skip-existing 
+        -p ${{ secrets.test_pypi_api_key }}
+        -u __token__
     - name: Publish distribution 📦 to PyPI
-      uses: pypa/gh-action-pypi-publish@master
-      with:
-        password: ${{ secrets.pypi_api_key }}
+      run: >-
+        twine upload
+        --skip-existing 
+        -p ${{ secrets.pypi_api_key }}
+        -u __token__
