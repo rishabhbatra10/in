@@ -1,7 +1,7 @@
 # India package
 
 ![deployment](https://github.com/rishabhbatra10/in/workflows/deployment/badge.svg)
-#### Version 1.1.0
+#### Version 1.1.1
 ### Installation
 Installation Using pip
 ```bash
@@ -78,3 +78,6 @@ city.url        # returns official webpage of the city
 
 <li> Added cities of india with there attributes and states they belong to.
 <li> Added attributes to state objects including population, area and language.
+<li> Added cities string access
+<li> Added states string access
+<li> Added uts string access
