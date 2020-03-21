@@ -126,5 +126,12 @@ def lookup(val: str, field: str=None, use_cache: bool=True):
             return city
 
 
+def get_cities():
+    city_names = []
+    for city in CITIES:
+        city_names.append(city.name)
+    return city_names
+
+
 # initialising cities
 load_city()
