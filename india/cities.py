@@ -6,6 +6,7 @@
 
 # python imports
 import csv
+from typing import List, AnyStr
 
 # module imports
 from . import config, states, utils
@@ -124,6 +125,19 @@ def lookup(val: str, field: str=None, use_cache: bool=True):
         if val == getattr(city, field):
             _lookup_cache[cache_key] = city
             return city
+
+
+def get_cities() -> List[AnyStr]:
+    """ This returns a list of strings of cities sorted in ascending order
+    Example:
+    >>> from india import cities
+    >>> print(cities.get_cities())
+    """
+
+    city_names = []
+    for city in CITIES:
+        city_names.append(city.name)
+    return sorted(city_names)
 
 
 # initialising cities
