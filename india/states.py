@@ -5,6 +5,7 @@
 
 # python imports
 import csv
+from typing import List, AnyStr
 
 # module imports
 from . import utils
@@ -158,6 +159,34 @@ def lookup(val: str, field: str=None, use_cache: bool=True) -> str:
             return state
 
     raise ValueError('{}. matching state not found. Please try entering something else.'.format(val))
+
+
+def get_states(entity: str = 'all') -> List[AnyStr]:
+    """ This returns a list of strings of entities sorted in ascending order if entity param is not passed
+    :param entity: enum with allowed values ('state', 'ut', 'all')
+           default: 'all'
+    Example:
+    >>> from india import states
+    >>> print(states.get_states())
+    """
+    allowed_entities = ('state', 'ut', 'all')
+    # validation
+    if entity not in allowed_entities:
+        raise ValueError(f'Wrong entity type passed: {entity}. Allowed values {allowed_entities}')
+
+    state_names = []
+
+    # appending state names
+    if entity in ('all', 'state'):
+        for state in STATES:
+            state_names.append(state.name)
+
+    # appending ut names
+    if entity in ('all', 'ut'):
+        for ut in UNION_TERRITORIES:
+            state_names.append(ut.name)
+
+    return sorted(state_names)
 
 
 # initialising states and territories
