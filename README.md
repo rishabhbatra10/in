@@ -78,6 +78,7 @@ city.url        # returns official webpage of the city
 
 <li> Added cities of india with there attributes and states they belong to.
 <li> Added attributes to state objects including population, area and language.
-<li> Added cities string access
-<li> Added states string access
-<li> Added uts string access
+<li> Added cities string access.
+<li> Added states string access.
+<li> Added uts string access.
+<li> Added Jammu and Kashmir and Ladhakh as Union territories.
