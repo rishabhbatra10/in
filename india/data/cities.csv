@@ -224,12 +224,10 @@ JK,BD,Badgam,Badgam,735753,1406,537,http://budgam.nic.in/
 JK,DO,Doda,Doda,409576,11691,79,http://doda.gov.in/
 JK,GB,Ganderbal,Ganderbal,297003,258,1151,http://ganderbal.nic.in/
 JK,JA,Jammu,Jammu,1526406,3097,596,http://jammu.gov.in/
-JK,KR,Kargil,Kargil,143388,14036,10,http://kargil.gov.in/
 JK,KT,Kathua,Kathua,615711,2651,232,http://kathua.gov.in/
 JK,KW,Kishtwar,Kishtwar,230696,7737,30,http://kishtwar.nic.in/
 JK,KG,Kulgam,Kulgam,422786,457,925,http://kulgam.gov.in/
 JK,KU,Kupwara,Kupwara,875564,2379,368,http://kupwara.gov.in/
-JK,LE,Leh,Leh,147104,45110,3,http://leh.nic.in/
 JK,PO,Poonch,Poonch,476820,1674,285,http://poonch.gov.in/
 JK,PU,Pulwama,Pulwama,570060,1398,598,http://pulwama.gov.in/
 JK,RA,Rajouri,Rajouri,619266,2630,235,http://rajouri.nic.in/
@@ -307,6 +305,8 @@ KL,PT,Pathanamthitta,Pathanamthitta,1195537,2462,Map,453,http://pathanamthitta.n
 KL,TS,Thrissur,Thrissur,3110327,3032,Map,1026,http://thrissur.nic.in/,
 KL,TV,Thiruvananthapuram,Thiruvananthapuram,3307284,2192,Map,1509,http://www.trivandrum.gov.in//,
 KL,WA,Wayanad,Kalpetta,816558,2131,Map,383,http://wayanad.nic.in/,
+LA,LE,Leh,Leh,147104,45110,3,http://leh.nic.in/
+LA,KR,Kargil,Kargil,143388,14036,10,http://kargil.gov.in/
 LD,LD,Lakshadweep,Kavaratti,64429,32,2013,http://www.lakshadweep.gov.in/
 MP,AG,Agar Malwa,Agar,,,,
 MP,AL,Alirajpur,Alirajpur,728677,3182,229,http://alirajpur.nic.in/
