@@ -2,7 +2,6 @@
 # @coding: utf-8
 # @author: Rishabh Batra
 # @email: rishabhbatra1002@gmail.com
-# Get weather for every city using weather API
 
 # python imports
 import csv

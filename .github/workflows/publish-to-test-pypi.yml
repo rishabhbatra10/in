@@ -1,5 +1,6 @@
 name: deployment
-on: 
+
+on:
   push:
     branches:
       - master
