@@ -37,13 +37,13 @@ AR,US,Upper Siang,Yingkiong,35289,6188,6,http://uppersiang.nic.in/
 AR,UB,Upper Subansiri,Daporijo,83205,7032,12,http://uppersubansiri.nic.in/
 AR,WK,West Kameng,Bomdila,87013,7422,12,http://westkameng.nic.in/
 AR,WS,West Siang,Along,112272,8325,13,http://westsiang.nic.in/
-AS,BK,Baksa[7],Mushalpur,953773,2008,475,http://baksa.gov.in/
+AS,BK,Baksa,Mushalpur,953773,2008,475,http://baksa.gov.in/
 AS,BP,Barpeta,Barpeta,1693190,3245,522,http://barpeta.gov.in/
-AS,BS,Bishwanath[8],Bishwanath Chariali,580000,1100,527,
+AS,BS,Bishwanath,Bishwanath Chariali,580000,1100,527,
 AS,BO,Bongaigaon,Bongaigaon,732639,1724,425,http://bongaigaon.gov.in/
 AS,CA,Cachar,Silchar,1736319,3786,459,http://cachar.gov.in/
-AS,CD,Charaideo[8],Sonari,,,,
-AS,CH,Chirang[7],Kajalgaon,481818,1975,244,http://chirang.gov.in/
+AS,CD,Charaideo,Sonari,,,,
+AS,CH,Chirang,Kajalgaon,481818,1975,244,http://chirang.gov.in/
 AS,DR,Darrang,Mangaldoi,908090,1849,491,http://darrang.gov.in/
 AS,DM,Dhemaji,Dhemaji,688077,3237,213,http://dhemaji.gov.in/
 AS,DU,Dhubri,Dhubri,1948632,2838,687,http://dhubri.gov.in/
@@ -52,27 +52,27 @@ AS,NC,Dima Hasao,Haflong,213529,4888,44,http://nchills.gov.in/
 AS,GP,Goalpara,Goalpara,1008959,1824,553,http://goalpara.gov.in/
 AS,GG,Golaghat,Golaghat,1058674,3502,302,http://golaghat.gov.in/
 AS,HA,Hailakandi,Hailakandi,659260,1327,497,http://hailakandi.nic.in/
-AS,HJ,Hojai[8],Hojai,347627,,,
+AS,HJ,Hojai,Hojai,347627,,,
 AS,JO,Jorhat,Jorhat,1091295,2851,383,http://jorhat.gov.in/
 AS,KU,Kamrup,Amingaon,1517202,3480,436,http://kamrup.nic.in/
 AS,KM,Kamrup Metropolitan,Guwahati,1260419,627,2010,http://kamrupmetro.nic.in/
 AS,KG,Karbi Anglong,Diphu,965280,10434,93,http://karbianglong.gov.in/
 AS,KR,Karimganj,Karimganj,1217002,1809,673,http://karimganj.gov.in/
-AS,KJ,Kokrajhar[7],Kokrajhar,886999,3129,283,http://kokrajhar.gov.in/
+AS,KJ,Kokrajhar,Kokrajhar,886999,3129,283,http://kokrajhar.gov.in/
 AS,LA,Lakhimpur,North Lakhimpur,1040644,2277,457,http://lakhimpur.gov.in/
 AS,MJ,Majuli[9],Garamur,167304,1250,134,
 AS,MA,Morigaon,Marigaon,957853,1704,562,http://morigaon.nic.in/
 AS,NN,Nagaon,Nagaon,2826006,3831,738,http://nagaon.gov.in/
 AS,NB,Nalbari,Nalbari,769919,1009,763,http://nalbari.nic.in/
 AS,ST,Sivasagar,Sibsagar,1150253,2668,431,http://sivasagar.nic.in
-AS,SM,South Salmara-Mankachar[8],Hatsingimari,,,,
+AS,SM,South Salmara-Mankachar,Hatsingimari,,,,
 AS,SO,Sonitpur,Tezpur,1925975,5324,362,http://sonitpur.gov.in/
 AS,TI,Tinsukia,Tinsukia,1316948,3790,347,http://tinsukia.gov.in/
-AS,UD,Udalguri[7],Udalguri,832769,1676,497,http://udalguri.gov.in/
-AS,WK,West Karbi Anglong[8],Hamren,,,,
+AS,UD,Udalguri,Udalguri,832769,1676,497,http://udalguri.gov.in/
+AS,WK,West Karbi Anglong,Hamren,,,,
 BR,AR,Araria,Araria,2806200,2829,992,http://araria.bih.nic.in
 BR,AW,Arwal,Arwal,700843,638,1098,http://arwal.bih.nic.in/
-BR,AU,Aurangabad,Aurangabad,2511243,3303,760,http://aurangabad.bih.nic.in
+BR,AU,Aurangabad (Bihar),Aurangabad,2511243,3303,760,http://aurangabad.bih.nic.in
 BR,BA,Banka,Banka,2029339,3018,672,http://banka.bih.nic.in
 BR,BE,Begusarai,Begusarai,2954367,1917,1540,http://begusarai.bih.nic.in
 BR,BG,Bhagalpur,Bhagalpur,3032226,2569,1180,https://web.archive.org/web/20111006202238/http://bhagalpur.bih.nic.in/
@@ -601,15 +601,15 @@ TR,DH,Dhalai,Ambassa,377988,2400,157,http://dhalai.gov.in/
 TR,GM,Gomati,"Udaipur, Tripura",436868,15228,287,http://gomati.nic.in/
 TR,KH,Khowai,Khowai,327391,100567,326,http://khowai.nic.in/
 TR,NT,North Tripura,Dharmanagar,415946,14445,288,http://northtripura.gov.in/
-TR,SP,Sepahijala[13],Bishramganj,484233,104478,463,http://sepahijala.nic.in/
+TR,SP,Sepahijala,Bishramganj,484233,104478,463,http://sepahijala.nic.in/
 TR,ST,South Tripura,Belonia,433737,15342,283,http://southtripura.nic.in/
 TR,UK,Unokoti,Kailashahar,277335,59193,469,http://unakoti.nic.in/
 TR,WT,West Tripura,Agartala,917534,94255,973,http://westtripura.nic.in/
 UP,AG,Agra,Agra,4380793,4027,1084,http://agra.nic.in/def.asp
 UP,AL,Aligarh,Aligarh,3673849,3747,1007,http://aligarh.nic.in/
-UP,AH,Allahabad,Allahabad,5959798,5481,1087,http://allahabad.nic.in/
+UP,AH,Prayagraj (Allahabad),Prayagraj,5959798,5481,1087,http://allahabad.nic.in/
 UP,AN,Ambedkar Nagar,Akbarpur,2398709,2372,1021,http://ambedkarnagar.nic.in/
-UP,CS,Amethi (Chhatrapati Shahuji Maharaj Nagar)[15],Gauriganj,,,,
+UP,CS,Amethi (Chhatrapati Shahuji Maharaj Nagar),Gauriganj,,,,
 UP,JP,Amroha (Jyotiba Phule Nagar),Amroha,1838771,2321,818,https://web.archive.org/web/20160312173025/http://jpnagar.nic.in/
 UP,AU,Auraiya,Auraiya,1372287,2051,681,https://web.archive.org/web/20070906234458/http://auraya.nic.in/
 UP,AZ,Azamgarh,Azamgarh,4616509,4053,1139,http://azamgarh.nic.in/
@@ -672,7 +672,7 @@ UP,SM,Sambhal (Bheem Nagar),Sambhal,2217020,,,https://web.archive.org/web/201406
 UP,SK,Sant Kabir Nagar,Khalilabad,1714300,1442,1014,http://sknagar.nic.in/
 UP,SR,Bhadohi,Gyanpur,1554203,960,1531,http://bhadohi.nic.in/
 UP,SJ,Shahjahanpur,Shahjahanpur,3002376,4575,673,http://shahjahanpur.nic.in/
-UP,SH,Shamli[16],Shamli,,,,http://nppshamli.in/statis.aspx
+UP,SH,Shamli,Shamli,,,,http://nppshamli.in/statis.aspx
 UP,SV,Shravasti,Shravasti,1114615,1948,572,http://shravasti.nic.in/
 UP,SN,Siddharthnagar,Naugarh,2553526,2751,882,http://sidharthnagar.nic.in/
 UP,SI,Sitapur,Sitapur,4474446,5743,779,http://sitapur.nic.in/
