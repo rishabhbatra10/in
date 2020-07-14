@@ -1,7 +1,7 @@
 # India package
 
 ![deployment](https://github.com/rishabhbatra10/in/workflows/deployment/badge.svg)
-#### Version 1.1.4
+#### Version 1.1.5
 ### Installation
 Installation Using pip
 ```bash
