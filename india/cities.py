@@ -126,9 +126,10 @@ def lookup(val: str, field: str=None, use_cache: bool=True):
             return city
 
 
-def get_cities(ignore_cities: list = None) -> List[AnyStr]:
+def get_cities(add_cities: list = None, ignore_cities: list = None) -> List[AnyStr]:
     """ This returns a list of strings of cities sorted in ascending order
     :param ignore_cities: A list of names to be ignored.
+    :param add_cities: A list of names to be added
     Example:
     >>> from india import cities
     >>> print(cities.get_cities())
@@ -138,11 +139,17 @@ def get_cities(ignore_cities: list = None) -> List[AnyStr]:
         ignore_cities = []
 
     ignore_cities = [city.lower() for city in ignore_cities]
+    add_cities = [city.lower() for city in add_cities]
 
     city_names = []
     for city in CITIES:
         if city.name.lower() not in ignore_cities:
             city_names.append(city.name)
+    
+    # added cities names
+    if add_cities:
+        city_names = city_names + add_cities
+
     return sorted(city_names)
 
 
